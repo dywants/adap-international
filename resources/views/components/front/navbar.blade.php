@@ -1,9 +1,9 @@
 <header>
     <div class="mx-auto max-w-screen-xl">
         <div class="flex items-center justify-between gap-4 lg:gap-10">
-            <div class="flex lg:w-0 lg:flex-1">
-                <a href="/">
-                    <img src="/assets/images/logo-adap.jpeg" class="w-44 h-32 object-cover"  alt="logo adap-international">
+            <div class="flex lg:w-0 lg:flex-1 pl-10">
+                <a href="/" class="py-4">
+                    <img src="{{ asset('assets/images/logo/Logo_adap.png') }}" class="w-28 h-28 object-cover"  alt="logo adap-international">
                 </a>
             </div>
 
@@ -91,7 +91,7 @@
                    <a class="text-white text-base" href="">Our Actions</a>
                    <a class="text-white text-base" href="">Tourism & Solidarity</a>
                    <a class="text-white text-base" href="">Risky immigration</a>
-                   <a class="text-white text-base" href="">Actu</a>
+                   <a class="text-white text-base" href="{{ route('blog') }}">Actu</a>
                    <a class="text-white text-base" href="{{ route('contact') }}">Contact</a>
                </div>
                <div class="bg-secondary py-6 px-4">
