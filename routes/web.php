@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', HomeController::class)->name('home');
 Route::get('/contact', ContactController::class)->name('contact');
 Route::get('/qui-sommes-nous', AboutController::class)->name('about');
-Route::get('/actu', Blog::class)->name('blog');
+Route::get('/notre-actualite', Blog::class)->name('blog');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
