@@ -152,11 +152,10 @@
         <!-- End Grid -->
     </section>
     <!-- End Features -->
-    <section class="bg-cover relative bg-center bg-no-repeat"
-             style="background-image: url('{{ asset('assets/images/tourisme-volontaire/herve-j.JPG') }}'); z-index: -1;">
-        <div class="absolute inset-0 bg-primary/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-green-300/95 sm:to-green-700/25"
-             style="z-index: -1"></div>
-        <div class="z-50 p-8 md:p-12 lg:px-16 lg:py-24" style="z-index: 1000;">
+    <section class="bg-cover bg-center bg-no-repeat"
+             style="background-image: url('{{ asset('assets/images/tourisme-volontaire/herve-j.JPG') }}');">
+
+        <div class="z-50 p-8 md:p-12 lg:px-16 lg:py-24 relative" style="z-index: 1000;">
             <div class="flex ">
                 <div class="p-16 max-w-5xl">
                     <h2 class="text-5xl font-semibold">Tu peux faire partie de l'aventure et avoir un reel impact sur le monde</h2>
@@ -166,6 +165,8 @@
                     </a>
                 </div>
             </div>
+            <div class="absolute inset-0 bg-primary/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-green-300/95 sm:to-green-700/25"
+                 style="z-index: -1"></div>
         </div>
     </section>
 @endsection

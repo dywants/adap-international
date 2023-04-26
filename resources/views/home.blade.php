@@ -92,7 +92,7 @@
                         </svg>
 
                         <div class="ml-5 sm:ml-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800">
                                 Assistance médicale
                             </h3>
                             <p class="mt-1 text-gray-600 dark:text-gray-400">
@@ -147,7 +147,7 @@
                             </g>
                         </svg>
                         <div class="ml-5 sm:ml-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 ">
                                 Sport & Loisir
                             </h3>
                             <p class="mt-1 text-gray-600 dark:text-gray-400">
@@ -180,7 +180,7 @@
           	                             l28.958,76.896l9.038,100.065c1.087,12.033,11.721,20.918,23.769,19.831c12.04-1.087,20.918-11.729,19.831-23.769L299.796,330.976z" />
                         </svg>
                         <div class="ml-5 sm:ml-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800">
                                 Tourisme Africain
                             </h3>
                             <p class="mt-1 text-gray-600 dark:text-gray-400">
@@ -211,7 +211,7 @@
                                 stroke-width="4" stroke-linejoin="round" />
                         </svg>
                         <div class="ml-5 sm:ml-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 ">
                                 Culture
                             </h3>
                             <p class="mt-1 text-gray-600 dark:text-gray-400">
@@ -233,7 +233,7 @@
                             <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                                 Droit de l'homme
                             </h3>
-                            <p class="mt-1 text-gray-600 dark:text-gray-400">
+                            <p class="mt-1 text-gray-600 ">
                                 Aider au renforcement des capacités des citoyens dans la défense de leurs
                                 droits et intérêts
                             </p>
@@ -273,7 +273,7 @@
                     <ul role="list" class="space-y-2 sm:space-y-4">
                         <li class="flex space-x-3">
                             <!-- Solid Check -->
-                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16"
+                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600" width="16"
                                 height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z"
@@ -291,7 +291,7 @@
 
                         <li class="flex space-x-3">
                             <!-- Solid Check -->
-                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16"
+                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600" width="16"
                                 height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z"
@@ -309,7 +309,7 @@
 
                         <li class="flex space-x-3">
                             <!-- Solid Check -->
-                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16"
+                            <svg class="flex-shrink-0 h-6 w-6 text-blue-600" width="16"
                                 height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z"
@@ -349,11 +349,11 @@
                     <!-- Tab Navs -->
                     <nav class="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
                         <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active"
+                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl active"
                             id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1"
                             role="tab">
                             <span class="flex">
-                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800"
                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     viewBox="0 0 16 16">
                                     <path
@@ -362,7 +362,7 @@
                                 </svg>
                                 <span class="grow ml-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Advanced
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800">Advanced
                                         tools</span>
                                     <span
                                         class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Use
@@ -372,7 +372,7 @@
                         </button>
 
                         <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl "
                             id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2"
                             role="tab">
                             <span class="flex">
@@ -515,7 +515,7 @@
                 href="#">
                 <div class="p-4 md:p-5">
                     <div class="flex justify-center items-center">
-                        <svg class="mt-1 shrink-0 w-5 h-5 text-gray-800 dark:text-gray-200"
+                        <svg class="mt-1 shrink-0 w-5 h-5 text-gray-800"
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             viewBox="0 0 16 16">
                             <path
@@ -694,17 +694,17 @@
         <!-- Grid -->
         <div class="grid grid-cols-12 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
             <div class="col-span-6 text-center">
-                <h4 class="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+                <h4 class="text-xl md:text-3xl font-semibold text-gray-800 ">
                     250+
                 </h4>
-                <h4 class="text-sm text-gray-600 dark:text-gray-400">
+                <h4 class="text-sm text-gray-600">
                     Components
                 </h4>
             </div>
             <!-- End Col -->
 
             <div class="col-span-6 text-center">
-                <h4 class="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+                <h4 class="text-xl md:text-3xl font-semibold text-gray-800">
                     160+
                 </h4>
                 <h4 class="text-sm text-gray-600 dark:text-gray-400">
@@ -714,10 +714,10 @@
             <!-- End Col -->
 
             <div class="col-start-4 col-span-6 text-center">
-                <h4 class="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+                <h4 class="text-xl md:text-3xl font-semibold text-gray-800">
                     10+
                 </h4>
-                <h4 class="text-sm text-gray-600 dark:text-gray-400">
+                <h4 class="text-sm text-gray-600 ">
                     Tailwind CSS Plugins
                 </h4>
             </div>
@@ -727,20 +727,21 @@
     </div>
     <!-- End Clients -->
     <!-- End Card Section -->
-    <section class="bg-cover relative bg-center bg-no-repeat"
-        style="background-image: url('{{ asset('assets/images/projet-forage/p-forage-2.jpeg') }}'); z-index: -1;">
-        <div class="absolute inset-0 bg-primary/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-green-300/95 sm:to-green-700/25"
-            style="z-index: -1"></div>
-        <div class="z-50 p-8 md:p-12 lg:px-16 lg:py-24" style="z-index: 1000;">
-            <div class="flex justify-end ">
+    <section class="bg-cover  bg-center bg-no-repeat"
+        style="background-image: url('{{ asset('assets/images/projet-forage/p-forage-2.jpeg') }}');">
+
+        <div class="relative z-50 p-8 md:p-12 lg:px-16 lg:py-24 " style=" z-index: 1000;">
+            <div class="flex justify-end " >
                 <div class="p-16 max-w-2xl">
                     <h2 class="text-5xl font-semibold ">Rendons le monde meilleur ensemble</h2>
-                    <a href="#" style="z-index: 3000;"
+                    <a href="#"
                         class="mt-8 inline-block rounded bg-secondary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
                         FAIRE UN DON
                     </a>
                 </div>
             </div>
+            <div class="absolute inset-0 bg-primary/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-green-300/95 sm:to-green-700/25" style=" z-index: -1;"
+            ></div>
         </div>
     </section>
 @endsection
