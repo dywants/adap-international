@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class OurActionController extends Controller
 {
-    //
+    public function __invoke()
+    {
+        return view('our-actions');
+    }
 }

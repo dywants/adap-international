@@ -375,7 +375,7 @@
                 </p>
 
                 <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                    &copy; 2022 Company Name
+                    &copy; 2022 ADAP INTERNATIONAL | Créer Par <a target="_blank" href="https://dywants.com">DYWANTS</a>
                 </p>
             </div>
         </div>

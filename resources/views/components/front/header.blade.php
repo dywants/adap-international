@@ -14,7 +14,7 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
                 tenetur fuga ducimus numquam ea!
             </p>
-            <div class="flex flex-wrap"><a href="#" class="block w-full mt-4 rounded bg-secondary px-2 py-3 text-sm font-medium text-white shadow hover:opacity-75 focus:outline-none focus:ring sm:w-auto">
+            <div class="flex flex-wrap"><a href="#" class="block w-full mt-4 rounded bg-secondary px-2.5 py-3 text-sm font-medium text-white shadow hover:opacity-75 focus:outline-none focus:ring sm:w-auto">
                     En savoir plus
                 </a></div>
         </div>

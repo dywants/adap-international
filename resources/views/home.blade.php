@@ -35,10 +35,8 @@
     <x-front.our-missions></x-front.our-missions>
 
     <!-- Icon Blocks -->
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto">
-        <div class="max-w-4xl mx-auto">
-            <!-- Grid -->
-            <div class="grid md:grid-cols-2 gap-6 lg:gap-12">
+    <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto">
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-12">
                 <div class="space-y-6 lg:space-y-10">
                     <!-- Icon Block -->
                     <div class="flex">
@@ -245,8 +243,6 @@
                 </div>
                 <!-- End Col -->
             </div>
-            <!-- End Grid -->
-        </div>
     </div>
     <!-- End Icon Blocks -->
 
@@ -467,7 +463,7 @@
         <!-- Grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="p-4 md:p-5">
                     <div class="flex justify-center items-center">
@@ -515,7 +511,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col justify-center items-center bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col justify-center items-center bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="p-4 md:p-5">
                     <div class="flex justify-center items-center">
@@ -528,7 +524,7 @@
 
                         <div class="grow ml-5">
                             <h3
-                                class="group-hover:text-secondary font-semibold text-gray-800 dark:group-hover:text-gray-400">
+                                class="group-hover:text-secondary font-semibold text-gray-800 ">
                                 Email us
                             </h3>
                             <p class="text-sm text-gray-500">
@@ -739,7 +735,7 @@
             <div class="flex justify-end ">
                 <div class="p-16 max-w-2xl">
                     <h2 class="text-5xl font-semibold ">Rendons le monde meilleur ensemble</h2>
-                    <a href="#"
+                    <a href="#" style="z-index: 3000;"
                         class="mt-8 inline-block rounded bg-secondary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
                         FAIRE UN DON
                     </a>

@@ -4,7 +4,10 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\Blog;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OurActionController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RiskyImmigrationController;
+use App\Http\Controllers\TourismSolidarityController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,6 +26,9 @@ Route::get('/', HomeController::class)->name('home');
 Route::get('/contact', ContactController::class)->name('contact');
 Route::get('/qui-sommes-nous', AboutController::class)->name('about');
 Route::get('/notre-actualite', Blog::class)->name('blog');
+Route::get('/immigration-responsable', RiskyImmigrationController::class)->name('immigrat');
+Route::get('/nos-actions', OurActionController::class)->name('Oactions');
+Route::get('/tousrisne-solidarite', TourismSolidarityController::class)->name('tourism');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

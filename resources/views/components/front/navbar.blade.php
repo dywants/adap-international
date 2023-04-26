@@ -88,9 +88,9 @@
                <div class="flex gap-8 px-10 py-6">
                    <a class="text-white text-base" href="{{ route('home') }}">Home</a>
                    <a class="text-white text-base" href="{{ route('about') }}">About Us</a>
-                   <a class="text-white text-base" href="">Our Actions</a>
-                   <a class="text-white text-base" href="">Tourism & Solidarity</a>
-                   <a class="text-white text-base" href="">Risky immigration</a>
+                   <a class="text-white text-base" href="{{ route('Oactions') }}">Our Actions</a>
+                   <a class="text-white text-base" href="{{ route('tourism') }}">Tourism & Solidarity</a>
+                   <a class="text-white text-base" href="{{ route('immigrat') }}">Risky immigration</a>
                    <a class="text-white text-base" href="{{ route('blog') }}">Actu</a>
                    <a class="text-white text-base" href="{{ route('contact') }}">Contact</a>
                </div>
