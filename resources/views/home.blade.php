@@ -12,17 +12,15 @@
                     </div>
 
                     <div class="lg:py-24">
-                        <h2 class="text-3xl font-bold sm:text-4xl">ADAP INTERNATIONAL</h2>
+                        <h2 class="text-3xl font-bold sm:text-4xl">ADAP-INTERNATIONAL</h2>
 
                         <p class="mt-4 text-gray-600">
-                            œuvrer pour apporter un frein à l’immigration massive, irrégulière et clandestine
-                            des jeunes Africains à travers des actions de sensibilisation, de charité et
-                            d’assistance, tout en leur proposant des solutions concrètes à leur précarité
+                            Œuvrer pour l'amélioration de la qualité de vie, le rapprochement des communautés africaines á travers les secteurs de l'education et de l'entrepreneuriat jeune, la préservation de l'environnement, le renforcement de l'economie locale, la promotion de la paix, le developpement du potentiel sportif et l'accès aux services de base
                         </p>
 
                         <a href="#"
                             class="mt-8 inline-block rounded bg-secondary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
-                            LEARN ABOUT US
+                            EN SAVOIR PLUS SUR NOUS
                         </a>
                     </div>
                 </div>
@@ -341,7 +339,7 @@
             <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
                 <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
                     <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl mb-4">
-                        ADAP International oeuvre a ameloirer les comditions de travaille dans les hôpiteux
+                        ADAP-International œuvre à améliorer les conditions de travail dans les hôpitaux.
                     </h2>
                     <p class="text-base font-light text-gray-500 md:text-lg leading-7">Initiative de collecte et remise de
                         matériels médicaux aux hôpitaux</p>
