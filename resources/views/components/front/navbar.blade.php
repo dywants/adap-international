@@ -1,9 +1,10 @@
-<header>
+<header x-data="{ isOpen: false }">
     <div class="mx-auto max-w-screen-xl">
         <div class="flex items-center justify-between gap-4 lg:gap-10">
             <div class="flex lg:w-0 lg:flex-1 pl-10">
                 <a href="/" class="py-4">
-                    <img src="{{ asset('assets/images/logo/Logo_adap.png') }}" class="w-28 h-28 object-cover"  alt="logo adap-international">
+                    <img src="{{ asset('assets/images/logo/Logo_adap.png') }}" class="w-16 h-16 sm:w-28 sm:h-28 object-cover"
+                         alt="logo adap-international">
                 </a>
             </div>
 
@@ -11,15 +12,21 @@
                 <div class="grid justify-items-end">
                     <div class="flex gap-2 pb-2">
                         <div class="flex gap-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
-                                <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                 class="w-4 h-4">
+                                <path fill-rule="evenodd"
+                                      d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                                      clip-rule="evenodd"/>
                             </svg>
                             <span class="text-xs text-gray-400">6 99 77 00 00</span>
                         </div>
                         <div class="flex gap-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
-                                <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
-                                <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                 class="w-4 h-4">
+                                <path
+                                    d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/>
+                                <path
+                                    d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/>
                             </svg>
 
                             <span class="text-xs text-gray-400">contact@adap-international.org</span>
@@ -60,46 +67,57 @@
                 </div>
             </div>
 
-            <div class="lg:hidden">
-                <button class="rounded-lg bg-gray-100 p-2 text-gray-600" type="button">
-                    <span class="sr-only">Open menu</span>
-                    <svg
-                        aria-hidden="true"
-                        class="h-5 w-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewbox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M4 6h16M4 12h16M4 18h16"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                        />
-                    </svg>
-                </button>
+            <button @@click.prevent="isOpen = !isOpen" :class="{ 'transition transform-180': isOpen }"
+                    class="block lg:hidden rounded-lg bg-gray-100 p-2 text-gray-600 mr-8 sm:mr-0" type="button">
+                <span class="sr-only">Open menu</span>
+                <svg
+                    aria-hidden="true"
+                    class="h-5 w-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewbox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path x-show="isOpen"
+                          d="M4 6h16M4 12h16M4 18h16"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                    />
+                    <path x-show="!isOpen" fill-rule="evenodd"
+                        d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                    />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div aria-label="Site Nav" class="bg-primary hidden sm:block" :class="{ 'block': isOpen, 'hidden': !isOpen }"
+         x-show.transition="true">
+
+        <div class="mx-auto max-w-screen-xl text-sm font-medium">
+            <div class="flex flex-col sm:flex-row justify-between">
+                <div class="flex flex-col sm:flex-row text-center gap-8 px-10 py-6">
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('home') }}">Home</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('about') }}">About Us</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('Oactions') }}">Our
+                        Actions</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('tourism') }}">Tourism &
+                        Solidarity</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('immigrat') }}">Risky
+                        immigration</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('blog') }}">Actu</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('contact') }}">Contact</a>
+                    <div class="sm:hidden bg-secondary py-6 px-4 rounded-md">
+                        <a class="text-base text-white" href="#">Faire un don</a>
+                    </div>
+                </div>
+                <div class="bg-secondary py-6 px-4 hidden sm:block">
+                    <a class="text-base text-white" href="#">Faire un don</a>
+                </div>
             </div>
         </div>
     </div>
-    <nav aria-label="Site Nav" class=" bg-primary">
-       <div class="mx-auto max-w-screen-xl hidden md:block text-sm font-medium">
-           <div class="flex justify-between items-center ">
-               <div class="flex gap-8 px-10 py-6">
-                   <a class="text-white text-base" href="{{ route('home') }}">Home</a>
-                   <a class="text-white text-base" href="{{ route('about') }}">About Us</a>
-                   <a class="text-white text-base" href="{{ route('Oactions') }}">Our Actions</a>
-                   <a class="text-white text-base" href="{{ route('tourism') }}">Tourism & Solidarity</a>
-                   <a class="text-white text-base" href="{{ route('immigrat') }}">Risky immigration</a>
-                   <a class="text-white text-base" href="{{ route('blog') }}">Actu</a>
-                   <a class="text-white text-base" href="{{ route('contact') }}">Contact</a>
-               </div>
-               <div class="bg-secondary py-6 px-4">
-                   <a class="text-base text-white" href="#">Faire un don</a>
-               </div>
-           </div>
-       </div>
-    </nav>
 </header>
+
 
 

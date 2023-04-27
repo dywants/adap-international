@@ -363,7 +363,7 @@
                                         class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800">Advanced
                                         tools</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Use
+                                        class="block mt-1 text-gray-800 ">Use
                                         Preline thoroughly thought and automated libraries to manage your businesses.</span>
                                 </span>
                             </span>
@@ -385,7 +385,7 @@
                                         class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Smart
                                         dashboards</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Quickly
+                                        class="block mt-1 text-gray-800">Quickly
                                         Preline sample components, copy-paste codes, and start right off.</span>
                                 </span>
                             </span>
@@ -407,7 +407,7 @@
                                         class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Powerful
                                         features</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Reduce
+                                        class="block mt-1 text-gray-800 ">Reduce
                                         time and effort on building modern look design with Preline only.</span>
                                 </span>
                             </span>
@@ -499,8 +499,8 @@
                         </svg>
 
                         <div class="grow ml-5">
-                            <h3 class="text-lg font-semibold text-white">
-                                Nous souvenir
+                            <h3 class="text-xl font-semibold text-white">
+                                Nous soutenir
                             </h3>
                         </div>
                     </div>
