@@ -6,7 +6,7 @@
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
                     </div>
-                    <div class="p-4 bg-blueLight">
+                    <div class="p-4 bg-[#20bec5]">
                         <h2 class="mt-2 mb-2 font-bold">Mise en vitrine des élus</h2>
                         <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         <a href="" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
@@ -23,7 +23,7 @@
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
                     </div>
-                    <div class="p-4 bg-redLight">
+                    <div class="p-4 bg-[#c0d6e8]">
                         <h2 class="mt-2 mb-2  font-bold">Solidarité à travers le sport</h2>
                         <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         <a href="" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
@@ -40,7 +40,7 @@
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
                     </div>
-                    <div class="p-4  bg-indigoLight">
+                    <div class="p-4 bg-[#9369b0]">
                         <h2 class="mt-2 mb-2  font-bold">Tourisme Solidaire</h2>
                         <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
                         <a href="" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
