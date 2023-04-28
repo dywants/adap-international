@@ -8,7 +8,7 @@
     <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto">
         <div class="flex items-start flex-wrap gap-8">
             <div class="flex-1 rounded-md shadow p-8 h-[365px] bg-gray-50">
-                <h2 class="text-3xl font-semibold text-dark mb-4">Votre vision</h2>
+                <h2 class="text-3xl font-semibold text-dark mb-4">Notre vision</h2>
                 <p class="space-y-6 text-xl leading-9" >
                     Participer á la construction d'une société globale dans laquelle les rapports
                     humains seront privilégiés entre
@@ -16,7 +16,7 @@
                 </p>
             </div>
             <div class="flex-1 rounded-md shadow p-8 h-[365px] bg-gray-50">
-                <h2 class="text-3xl font-semibold text-dark mb-4">Votre Missoin</h2>
+                <h2 class="text-3xl font-semibold text-dark mb-4">Notre missoin</h2>
                 <p class="space-y-6 text-xl leading-9" >
                     Œuvrer pour l'amélioration de la qualité de vie, le rapprochement des
                     communautés africaines á travers les secteurs de l'education et de
