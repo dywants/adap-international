@@ -11,7 +11,7 @@
             </h1>
 
             <p class="mt-4 sm:text-xl sm:leading-relaxed">
-                Participer á la construction d'une société globale dans laquelle les rapports humains seront privilégiés entre les africains résident en Afrique et les diasporas africaines à travers le monde
+                L’ENTREPRENARIAT SOCIAL, UN REEL SACERDOCE QUI COMMANDE VOLONTÉ, INGENIOSITE ET MÉTHODOLOGIE.
             </p>
             <div class="flex flex-wrap"><a href="#" class="block w-full mt-4 rounded bg-secondary px-3 py-3 text-sm font-medium text-white shadow hover:opacity-75 focus:outline-none focus:ring sm:w-auto">
                     Nous soutenir

@@ -4,7 +4,7 @@
             <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
                 <div class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
                     <div class="relative pb-48 overflow-hidden">
-                        <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+                        <img class="absolute inset-0 h-full w-full object-cover" src="{{ asset('/assets/images/elus-cameroun.jpeg') }}" alt="">
                     </div>
                     <div class="p-4 bg-[#20bec5]">
                         <h2 class="mt-2 mb-2 font-bold">Mise en vitrine des élus</h2>
