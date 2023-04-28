@@ -316,7 +316,7 @@
                                     />
                                 </svg>
 
-                                <span class="text-gray-700">677 643 849</span>
+                                <span class="text-gray-700">+1 (713) 592-2074</span>
                             </a>
                         </li>
 
