@@ -6,24 +6,24 @@
     <!-- Masonry Cards -->
 
     <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto">
-        <div class="flex items-start flex-wrap gap-8">
+        <div class="flex items-start flex-col sm:flex-row gap-8">
             <div class="flex-1 rounded-md shadow p-8 h-[365px] bg-gray-50">
                 <h2 class="text-3xl font-semibold text-dark mb-4">Notre vision</h2>
                 <p class="space-y-6 text-xl leading-9" >
-                    Participer á la construction d'une société globale dans laquelle les rapports
+                    Participer à la construction d'une société globale dans laquelle les rapports
                     humains seront privilégiés entre
-                    les africains résident en Afrique et les diasporas africaines à travers le monde
+                    les africains résidant en Afrique et les diasporas africaines à travers le monde.
                 </p>
             </div>
             <div class="flex-1 rounded-md shadow p-8 h-[365px] bg-gray-50">
                 <h2 class="text-3xl font-semibold text-dark mb-4">Notre missoin</h2>
                 <p class="space-y-6 text-xl leading-9" >
                     Œuvrer pour l'amélioration de la qualité de vie, le rapprochement des
-                    communautés africaines á travers les secteurs de l'education et de
+                    communautés africaines à travers les secteurs de l'éducation et de
                     l'entrepreneuriat jeune,
                     la préservation de l'environnement, le renforcement de l'economie locale, la
-                    promotion de la paix, le developpement du potentiel sportif et l'accès aux
-                    services de base
+                    promotion de la paix, le développement du potentiel sportif et l'accès aux
+                    services de base.
                 </p>
             </div>
         </div>
@@ -249,7 +249,7 @@
         <!-- Grid -->
         <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
             <div>
-                <img class="rounded-xl bg-contain" src="{{ asset('assets/images/association.jpeg') }}"
+                <img class="rounded-xl bg-contain" src="{{ asset('assets/images/diaspora-actions.jpeg') }}"
                     alt="Image Description">
             </div>
             <!-- End Col -->

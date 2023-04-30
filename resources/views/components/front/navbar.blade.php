@@ -1,4 +1,15 @@
 <header x-data="{ isOpen: false }">
+
+    <!-- Announcement Banner -->
+    <a class="group block bg-gray-200  p-4 rounded-md text-center transition-all duration-300 dark:bg-white/[.05] dark:hover:bg-white/[.075]" href="#">
+        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+            <p class="mr-2 inline-block text-sm text-gray-800 dark:text-gray-200">
+                THIS BILINGUAL WEBSITE IS UNDER NEW CONSTRUCTION
+            </p>
+        </div>
+    </a>
+    <!-- End Announcement Banner -->
+
     <div class="mx-auto max-w-screen-xl">
         <div class="flex items-center justify-between gap-4 lg:gap-10">
             <div class="flex lg:w-0 lg:flex-1 pl-10">
@@ -95,23 +106,21 @@
          x-show.transition="true">
 
         <div class="mx-auto max-w-screen-xl text-sm font-medium">
-            <div class="flex flex-col sm:flex-row justify-between">
-                <div class="flex flex-col sm:flex-row text-center gap-8 px-10 py-6">
-                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('home') }}">Home</a>
-                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('about') }}">About Us</a>
-                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('Oactions') }}">Our
-                        Actions</a>
-                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('tourism') }}">Tourism &
-                        Solidarity</a>
-                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('immigrat') }}">Risky
-                        immigration</a>
-                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('blog') }}">Actu</a>
+            <div class="flex flex-col items-center sm:flex-row justify-between">
+                <div class="flex flex-col items-center sm:flex-row text-center gap-8 px-10 py-6">
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('home') }}">Accueil</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('about') }}">Qui sommes-nous </a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('Oactions') }}">Programmes clés</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('tourism') }}">Tourisme solidaire</a>
+                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('immigrat') }}">Risky immigration</a>
+{{--                    <a class="text-white text-base" @click="isOpen = false" href="{{ route('blog') }}">Actu</a>--}}
                     <a class="text-white text-base" @click="isOpen = false" href="{{ route('contact') }}">Contact</a>
-                    <div class="sm:hidden bg-secondary py-6 px-4 rounded-md">
+                    <a class="text-white text-base px-2.5 py-2 bg-black hover:opacity-75 rounded-md" @click="isOpen = false" href="{{ route('blog') }}">Etre membre</a>
+                    <div class="sm:hidden bg-secondary items-center justify-center py-6 px-4 rounded-md">
                         <a class="text-base text-white" href="#">Faire un don</a>
                     </div>
                 </div>
-                <div class="bg-secondary py-6 px-4 hidden sm:block">
+                <div class="bg-secondary py-8 px-4 items-center justify-center hidden sm:block">
                     <a class="text-base text-white" href="#">Faire un don</a>
                 </div>
             </div>
