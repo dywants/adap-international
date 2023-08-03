@@ -3,13 +3,15 @@
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
                 <div class="flex justify-center text-teal-600 sm:justify-start">
-                    <img src="{{ asset('assets/images/logo/Logo_adap.png') }}" class="w-32 h-32 bg-cover object-cover" alt="logo ADAP">
+                    <img src="{{ asset('assets/images/logo/adap-logo.png') }}" class="w-32 h-32 bg-cover object-cover"
+                         alt="logo ADAP">
                 </div>
 
                 <p
                     class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left"
                 >
-                    En Créant ADAP-International au Cameroun à l’orée des années 2002, Nous voulions penser et implémenter une nouvelle façon d’œuvrer dans le social.
+                    En Créant ADAP-International au Cameroun à l’orée des années 2002, Nous voulions penser et
+                    implémenter une nouvelle façon d’œuvrer dans le social.
                 </p>
 
                 <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -114,7 +116,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="/"
                                 >
-                                   Etre membre
+                                    Etre membre
                                 </a>
                             </li>
 
