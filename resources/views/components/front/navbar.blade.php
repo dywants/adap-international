@@ -1,13 +1,13 @@
 <header x-data="{ isOpen: false }" class="shadow-navbar">
 
     <!-- Announcement Banner -->
-{{--    <a class="group block bg-gray-200 p-4 rounded-md text-center transition-all duration-300" href="#">--}}
-{{--        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">--}}
-{{--            <p class="mr-2 inline-block text-sm text-gray-800">--}}
-{{--                THIS BILINGUAL WEBSITE IS UNDER NEW CONSTRUCTION--}}
-{{--            </p>--}}
-{{--        </div>--}}
-{{--    </a>--}}
+    <a class="group block bg-gray-200 p-4 rounded-md text-center transition-all duration-300" href="#">
+        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+            <p class="mr-2 inline-block text-sm text-gray-800">
+                THIS BILINGUAL WEBSITE IS UNDER NEW CONSTRUCTION
+            </p>
+        </div>
+    </a>
     <!-- End Announcement Banner -->
 
     <div class="mx-auto max-w-screen-2xl">
