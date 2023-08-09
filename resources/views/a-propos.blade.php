@@ -35,6 +35,40 @@
         </div>
     </div>
     <x-front.find-work></x-front.find-work>
+
+    <section class="mx-auto max-w-screen-2xl px-20 my-32">
+        <div class="flex flex-wrap gap-32 justify-between items-center">
+            <div class="flex-1">
+                <h2 class="title-section mb-5">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reppour l’amélioration de la qualité de vie, le rapprochement des communautés africaines à travers les secteurs de l’éducation.</p>
+                <div class="flex flex-wrap mt-4">
+                    <x-primary-button href="#" class="">
+                        {{ __('Faire un don') }}
+                    </x-primary-button>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="text-center rounded-lg border p-10 col-span-2 hover:bg-primaryLight">
+                        <span class="number">12</span>
+                        <p class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima</p>
+                    </div>
+                    <div class="text-center rounded-lg border p-10 col-span-2 hover:bg-primaryLight">
+                        <span class="number">+30</span>
+                        <p class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima</p>
+                    </div>
+                    <div class="text-center rounded-lg border p-10 col-span-2 hover:bg-primaryLight">
+                        <span class="number">+125</span>
+                        <p class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima</p>
+                    </div>
+                    <div class="text-center rounded-lg border p-10 col-span-2 hover:bg-primaryLight">
+                        <span class="number">32</span>
+                        <p class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="bg-white ">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
             <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">

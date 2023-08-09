@@ -56,3 +56,12 @@
     grid-template-columns: repeat(auto-fit, 358px);
     gap: 12px;
 }
+
+.number{
+    color: #000;
+    font-family: SF Pro Display, serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
