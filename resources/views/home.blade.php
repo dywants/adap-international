@@ -40,7 +40,7 @@
         </div>
 
     </div>
-    <section class="py-24 bg-primaryLight mt-8 sm:mt-24">
+    <section class="bg-primaryLight mt-8 sm:mt-20">
        <div class="px-10 mx-auto max-w-screen-2xl  ">
            <div class="pb-10">
                <div class="flex justify-between items-center">
@@ -76,7 +76,7 @@
        </div>
     </section>
 
-    <section class="mx-auto max-w-screen-2xl px-10 sm:px-6 lg:px-8 lg:py-16 sm:mt-20">
+    <section class="mx-auto max-w-screen-2xl px-10 sm:px-6 lg:px-8 lg:py-6 sm:mt-20">
         <div class="pb-10">
             <div class="flex justify-between items-center">
                 <div class="max-w-[538px]">
