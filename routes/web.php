@@ -4,6 +4,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\Blog;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\IndexActionSocials;
 use App\Http\Controllers\OurActionController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RiskyImmigrationController;
@@ -29,6 +30,7 @@ Route::get('/notre-actualite', Blog::class)->name('blog');
 Route::get('/immigration-responsable', RiskyImmigrationController::class)->name('immigrat');
 Route::get('/nos-actions', OurActionController::class)->name('Oactions');
 Route::get('/tousrisne-solidarite', TourismSolidarityController::class)->name('tourism');
+Route::get('/nos-actions-sociales', IndexActionSocials::class)->name('actions-socials');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

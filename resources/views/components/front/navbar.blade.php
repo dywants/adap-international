@@ -86,13 +86,13 @@
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('home') }}">Accueil</a>
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('about') }}">Qui sommes-nous </a>
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('Oactions') }}">Programmes clés</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('tourism') }}">Tourisme solidaire</a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('tourism') }}">Tourisme Humanitaire</a>
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('immigrat') }}">Risky immigration</a>
                             <a class="text-white text-base" @click="isOpen = false" href="{{ route('contact') }}">Contact</a>
                         </div>
                         <div class="">
                             <x-secondary-button href="#" class="ml-3">
-                                {{ __('Etre membre') }}
+                                {{ __('Devenir Membre') }}
                             </x-secondary-button>
                             <x-primary-button href="#" class="ml-3">
                                 {{ __('Faire un don') }}

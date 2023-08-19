@@ -6,9 +6,11 @@
     <!-- Masonry Cards -->
 
     <div class="mx-auto max-w-screen-2xl px-10 py-10 sm:px-6 lg:px-8 lg:py-16">
-        <div class="w-[670px] mx-auto mb-10">
-            <h2 class="text-center text-dark text-4xl font-semibold mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <p class="w-[513px] mx-auto text-[#575756] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reprehenderit. </p>
+        <div class="w-full px-10 md:px-4 mx-auto mb-10">
+            <h2 class="text-center text-dark text-4xl font-semibold mb-4">Rechercher des partenariats entre des villes américaines et les
+                municipalités camerounaises, tout en accompagnant leur mise en œuvre</h2>
+            <p class="mx-auto text-[#575756] text-xl text-center">Aider au renforcement des capacités des citoyens dans la défense de leurs
+                droits et intérêts </p>
         </div>
         <div class="flex items-center gap-4 mb-10">
             <div class="w-[1000px]">
@@ -40,13 +42,14 @@
         </div>
 
     </div>
-    <section class="bg-primaryLight mt-8 sm:mt-20">
+    <section class="bg-primaryLight py-16 mt-8 sm:mt-20">
        <div class="px-10 mx-auto max-w-screen-2xl  ">
            <div class="pb-10">
                <div class="flex justify-between items-center">
                    <div class="max-w-[538px]">
                        <h2 class="title-section">Nos domaines d’activités</h2>
-                       <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reprehenderit. </p>
+                       <p class="paragraph">
+                           Ils constituent le socle du double but fondateur et guident les diverses activités de l’association dans l’optique de : </p>
                    </div>
                    <x-primary-button href="#">
                        {{ __('Nous soutenir') }}
@@ -81,7 +84,7 @@
             <div class="flex justify-between items-center">
                 <div class="max-w-[538px]">
                     <h2 class="title-section">Nos services</h2>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reprehenderit. </p>
+                    <p class="paragraph">ADAP-International entend fortement coopérer avec les collectivités municipales dans les domaines du tourisme, l’encadrement de la jeunesse désœuvrée. </p>
                 </div>
                 <x-primary-button href="#">
                     {{ __('Nous soutenir') }}
@@ -90,22 +93,23 @@
         </div>
         <div class="card-grid-4">
             <x-card.services
-                title="Tourisme Solidaire"
+                title="Tourisme Humanitaire"
                 image="{{asset('assets/images/tourisme-volontaire/herve-j.JPG')}}"
                 url="#"
                 paragraph="Nous organissons des visites guidées du Cameroun à coût réduit. Mais en contrepartie, le touriste peut nous offrir..."></x-card.services>
             <x-card.services title="Actions sociales"
-                             image="{{asset('assets/images/home/bg-action-social.png')}}"
-                             url="#"
-                             paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima Nemo minima voluptatum reprehenderit..."></x-card.services>
-            <x-card.services title="Mise en vitrine des élus"
+                             image="{{asset('assets/images/action-social.jpeg')}}"
+                             url="{{ route('actions-socials') }}"
+                             paragraph="Promouvoir l’alphabétisation et vulgariser les Technologies de l’Information et de la Communication en Afrique"></x-card.services>
+            <x-card.services title="Mise en Vitrine de nos C.T.D"
                              image="{{asset('assets/images/elus-cameroun.jpeg')}}"
                              url="#"
-                             paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima Nemo minima voluptatum reprehenderit..."></x-card.services>
-            <x-card.services title="Solidarité à travers le sport"
+                             paragraph="Permettre la presentatiom et mise en avant des actions des élus du Cameroun, des collectivités territoriales décentralisées..."></x-card.services>
+            <x-card.services title="Un Sport/Un Métier"
                              image="{{asset('assets/images/adap-sport.jpg')}}"
                              url="#"
-                             paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima Nemo minima voluptatum reprehenderit..."></x-card.services>
+                             paragraph="En 2008, lancement du Centre ADAP Inter-Sports en la présence du Délégué des
+Sports et des Activités Physiques du Wouri au Littoral, au Cameroun."></x-card.services>
         </div>
     </section>
 
@@ -198,10 +202,10 @@
             <div class="flex justify-between items-center">
                 <div class="max-w-[538px]">
                     <h2 class="title-section">Notre activité</h2>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reprehenderit. </p>
+                    <p class="paragraph">Rechercher des partenariats entre des villes américaines et les municipalités camerounaises, tout en accompagnant leur mise en œuvre.</p>
                 </div>
                 <x-primary-button href="#">
-                    {{ __('Etre membre') }}
+                    {{ __('Devenir Membre') }}
                 </x-primary-button>
             </div>
         </div>
@@ -222,7 +226,7 @@
 
     <!-- End Card Section -->
     <section class="bg-cover  bg-center bg-no-repeat"
-             style="background-image: url('{{ asset('assets/images/projet-forage/p-forage-2.jpeg') }}');">
+             style="background-image: url('{{ asset('assets/images/bg-action.jpg') }}');">
 
         <div class="relative z-50 p-8 md:p-12 lg:px-16 lg:py-24 " style=" z-index: 1000;">
             <div class="flex justify-end ">

@@ -66,7 +66,8 @@
             </div>
             <div class="flex-1">
                 <h2 class="title-section mb-2">Risky immigration</h2>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reppour l’amélioration de la qualité de vie, le rapprochement des communautés africaines à travers les secteurs de l’éducation.</p>
+                <p class="paragraph">Il est urgent d'enrayer ce désastre à travers des campagnes de sensibilisation en Afrique,
+                    tout en offrant au groupe cible une éducation et des outils pour sortir de la pauvreté.</p>
                 <div class="py-8 flex justify-between gap-4 items-center">
                     <div>
                         <img src="{{ asset("assets/images/icons/icon-record.png") }}" alt="" >
@@ -95,7 +96,7 @@
                 <img src="{{ asset("assets/images/nos-actions/programme-1.png") }}" class="w-full bg-cover" alt="">
                 <div class="flex items-center gap-4">
                     <img src="{{ asset("assets/images/nos-actions/programme-2.png") }}" class="w-full bg-cover h-auto" alt="">
-                    <img src="{{ asset("assets/images/nos-actions/programme-3.png") }}" class="w-full bg-cover" alt="">
+                    <img src="{{ asset("assets/images/nos-actions/programme-3.png") }}" class="w-full bg-cover  h-auto" alt="">
                 </div>
             </div>
             <div class="flex-1">

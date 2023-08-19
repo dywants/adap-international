@@ -79,6 +79,10 @@
         .bg-primary{
             background: #2ACF03 !important;
         }
+
+        .bg-primaryLight{
+            background: #F5FAF1 !important;
+        }
     </style>
 </head>
 
