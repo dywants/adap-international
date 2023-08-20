@@ -32,7 +32,7 @@
                </div>
             </div>
             <div class="w-[452px] relative">
-                <img src="{{ asset('assets/images/home/call-action.png')}}" alt="image">
+                <img src="{{ asset('assets/images/home/bg-card.jpeg')}}" alt="image" class="rounded-xl">
                <div class="absolute left-10 bottom-8">
                    <x-primary-button href="#" class="w-full">
                        {{ __('Nous soutenir') }}
