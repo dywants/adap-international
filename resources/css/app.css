@@ -6,6 +6,11 @@
     display: none;
 }
 
+h1,h2,h3,h4,h5,h6{
+    color: #161615;
+    font-family: SF Pro Display, serif;
+}
+
 
 .shadow-navbar{
     background: #FFF;
@@ -27,10 +32,10 @@
 
 .paragraph{
     color: #575756;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; /* 137.5% */
+    /*font-size: 20px;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 22px; !* 137.5% *!*/
 }
 
 .radius{
@@ -40,7 +45,7 @@
 .card-title{
     color: #161615;
     font-family: SF Pro Display, serif;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -54,7 +59,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 358px);
     gap: 12px;
+
 }
+
 
 .number{
     color: #000;

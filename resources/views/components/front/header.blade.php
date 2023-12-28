@@ -1,9 +1,9 @@
-<section class="bg-cover bg-center bg-no-repeat mx-auto max-w-[1460px] rounded-md px-10" style="background-image: url('{{ asset('assets/images/projet-forage/p-forage-2.jpeg')}}'); ">
-    <div class="absolute max-w-[1460px] bg-graded mx-auto px-10 inset-0 h-[530px] "></div>
+<section class="bg-cover bg-center bg-no-repeat mx-auto max-w-[1460px] rounded-md md:px-10" style="background-image: url('{{ asset('assets/images/projet-forage/p-forage-2.jpeg')}}'); ">
+    <div class="absolute max-w-[1460px] bg-graded mx-auto md:px-10 inset-0 h-[580px] md:h-[580px] "></div>
 
-    <div class="relative mx-auto h-auto max-w-screen-2xl px-10 py-32 sm:px-6 lg:flex lg:items-center lg:px-8">
-        <div class="max-w-2xl text-center sm:text-left">
-            <h1 class="text-3xl text-white font-extrabold sm:text-5xl leading-9">
+    <div class="relative mx-auto h-auto max-w-screen-2xl px-10 py-32 sm:px-6 md:flex md:items-center md:px-8">
+        <div class="max-w-2xl md:max-w-3xl text-left">
+            <h1 class="text-4xl text-white text-left font-extrabold md:text-6xl leading-9">
                 Association Internationale pour <span class="text-[#0000FF]">le Développement,</span>
                 <strong class="block font-extrabold text-secondary">
                     l’Assistance et la Paix

@@ -1,5 +1,5 @@
-<div class="p-4 radius bg-white w-[350px]">
-    <img src="{{$icon}}" alt="" class="bg-center">
-    <h3 class="card-title py-2">{{ $title }}</h3>
-    <p class="paragraph">{{ $paragraph }}</p>
+<div class="p-6 radius border-4 h-auto bg-white w-[450px]">
+    <img src="{{$icon}}" alt="icon" class="bg-center pb-2">
+    <h3 class="text-2xl font-bold py-2 text-dark">{{ $title }}</h3>
+    <p class="text-[#575756] text-[20px]">{{ $paragraph }}</p>
 </div>

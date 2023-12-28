@@ -6,32 +6,32 @@
     <!-- Masonry Cards -->
 
     <div class="mx-auto max-w-screen-2xl px-10 py-10 sm:px-6 lg:px-8 lg:py-16">
-        <div class="w-full px-10 md:px-4 mx-auto mb-10">
-            <h2 class="text-center text-dark text-4xl font-semibold mb-4">Rechercher des partenariats entre des villes américaines et les
+        <div class="w-full md:px-10 py-6 md:px-4 mx-auto mb-10">
+            <h2 class="md:text-center text-dark md:px-8 md:px-20 text-2xl md:text-4xl font-semibold mb-4">Rechercher des partenariats entre des villes américaines et les
                 municipalités camerounaises, tout en accompagnant leur mise en œuvre</h2>
-            <p class="mx-auto text-[#575756] text-xl text-center">Aider au renforcement des capacités des citoyens dans la défense de leurs
+            <p class="mx-auto text-[#575756] text-lg md:text-2xl md:text-center">Aider au renforcement des capacités des citoyens dans la défense de leurs
                 droits et intérêts </p>
         </div>
-        <div class="flex items-center gap-4 mb-10">
-            <div class="w-[1000px]">
+        <div class="flex flex-col md:flex-row md:px-o items-center gap-4 mb-10">
+            <div class="w-full md:w-[1000px]">
                <div class="space-y-4">
-                   <div class="flex gap-2 items-center">
-                       <img class="h-[300px]" src="{{ asset('assets/images/home/img-mission.png')}}" alt="image section mission">
-                       <div class="p-8 rounded-3xl bg-[#F5FAF1] h-[300px] flex flex-col justify-center">
-                           <h3 class="text-dark font-semibold text-2xl">Notre mission</h3>
-                           <p class="leading-7 text-lg">Œuvrer pour l'amélioration de la qualité de vie, le rapprochement des communautés africaines à travers les secteurs de l'éducation et de l'entrepreneuriat jeune, la réservation de l'environnement, le renforcement de l'economie locale, la promotion de la paix, le développement du potentiel sportif et l'accès aux services de base.</p>
+                   <div class="w-full flex flex-col md:flex-row gap-2 items-center">
+                       <img class="w-full hidden md:block md:h-[300px]" src="{{ asset('assets/images/home/img-mission.png')}}" alt="image section mission">
+                       <div class="p-8 rounded-3xl bg-[#F5FAF1] md:h-[300px] flex flex-col justify-center">
+                           <h3 class="text-dark font-semibold text-3xl">Notre mission</h3>
+                           <p class="leading-7 md:leading-8 text-lg">Œuvrer pour l'amélioration de la qualité de vie, le rapprochement des communautés africaines à travers les secteurs de l'éducation et de l'entrepreneuriat jeune, la réservation de l'environnement, le renforcement de l'economie locale, la promotion de la paix, le développement du potentiel sportif et l'accès aux services de base.</p>
                        </div>
                    </div>
-                   <div class="flex gap-2 items-center">
+                   <div class="flex flex-col md:flex-row gap-2 items-center">
                        <div class="p-8 rounded-3xl bg-[#EEF6F8] h-[300px] flex flex-col justify-center">
-                           <h3 class="text-dark font-semibold text-2xl">Notre vision</h3>
-                           <p class="leading-7 text-lg">Participer à la construction d'une société globale dans laquelle les rapports humains seront privilégiés entre les africains résidant en Afrique et les diasporas africaines à travers le monde.</p>
+                           <h3 class="text-dark font-semibold text-3xl">Notre vision</h3>
+                           <p class="leading-7 md:leading-8 text-lg">Participer à la construction d'une société globale dans laquelle les rapports humains seront privilégiés entre les africains résidant en Afrique et les diasporas africaines à travers le monde.</p>
                        </div>
-                       <img class="h-[300px]" src="{{ asset('assets/images/home/img-vision.png')}}" alt="image section mission">
+                       <img class="h-[300px] hidden md:block" src="{{ asset('assets/images/home/img-vision.png')}}" alt="image section mission">
                    </div>
                </div>
             </div>
-            <div class="w-[452px] relative">
+            <div class="w-full md:w-[452px] relative">
                 <img src="{{ asset('assets/images/home/bg-card.jpeg')}}" alt="image" class="rounded-xl">
                <div class="absolute left-10 bottom-8">
                    <x-primary-button href="#" class="w-full">
@@ -42,13 +42,13 @@
         </div>
 
     </div>
-    <section class="bg-primaryLight py-16 mt-8 sm:mt-20">
-       <div class="px-10 mx-auto max-w-screen-2xl  ">
-           <div class="pb-10">
-               <div class="flex justify-between items-center">
-                   <div class="max-w-[538px]">
-                       <h2 class="title-section">Nos domaines d’activités</h2>
-                       <p class="paragraph">
+    <section class="bg-primaryLight py-20 mt-8 sm:mt-20">
+       <div class="px-10 mx-auto max-w-screen-2xl">
+           <div class="pb-10 md:px-10">
+               <div class="flex flex-col md:flex-row justify-between md:items-center">
+                   <div class="max-w-[658px] mb-8 md:mb-0">
+                       <h2 class="title-section pb-4">Nos domaines d’activités</h2>
+                       <p class="text-2xl">
                            Ils constituent le socle du double but fondateur et guident les diverses activités de l’association dans l’optique de : </p>
                    </div>
                    <x-primary-button href="#">
@@ -56,7 +56,7 @@
                    </x-primary-button>
                </div>
            </div>
-           <div class="flex card-activity flex-wrap gap-4">
+           <div class="flex md:py-8 card-activity flex-wrap gap-4">
                <x-card.activity title="Education"
                                 icon="{{asset('assets/images/icons/icon-education.png')}}"
                                 paragraph="Rendre l’éducation accessible pour les couches défavorisées"/>
@@ -81,17 +81,17 @@
 
     <section class="mx-auto max-w-screen-2xl px-10 sm:px-6 lg:px-8 lg:py-6 sm:mt-20">
         <div class="pb-10">
-            <div class="flex justify-between items-center">
-                <div class="max-w-[538px]">
-                    <h2 class="title-section">Nos services</h2>
-                    <p class="paragraph">ADAP-International entend fortement coopérer avec les collectivités municipales dans les domaines du tourisme, l’encadrement de la jeunesse désœuvrée. </p>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="w-full md:max-w-[800px] mb-4 md:mb-0">
+                    <h2 class="title-section pb-4">Nos services</h2>
+                    <p class="mx-auto text-[#575756] text-lg md:text-2xl">ADAP-International entend fortement coopérer avec les collectivités municipales dans les domaines du tourisme, l’encadrement de la jeunesse désœuvrée. </p>
                 </div>
                 <x-primary-button href="#">
                     {{ __('Nous soutenir') }}
                 </x-primary-button>
             </div>
         </div>
-        <div class="card-grid-4">
+        <div class="card-grid-4 space-y-6 space-y-0">
             <x-card.services
                 title="Tourisme Humanitaire"
                 image="{{asset('assets/images/tourisme-volontaire/herve-j.JPG')}}"
@@ -109,7 +109,7 @@
                              image="{{asset('assets/images/adap-sport.jpg')}}"
                              url="#"
                              paragraph="En 2008, lancement du Centre ADAP Inter-Sports en la présence du Délégué des
-Sports et des Activités Physiques du Wouri au Littoral, au Cameroun."></x-card.services>
+Sports et des Activités Physiques du ..."></x-card.services>
         </div>
     </section>
 
@@ -117,7 +117,7 @@ Sports et des Activités Physiques du Wouri au Littoral, au Cameroun."></x-card.
 {{--    <x-front.our-missions></x-front.our-missions>--}}
 
     <!-- Card Section -->
-    <div class="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-6">
+    <div class="max-w-5xl px-10 py-10  lg:px-8 lg:py-16 mx-auto md:mt-20">
         <!-- Grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <!-- Card -->
@@ -197,41 +197,41 @@ Sports et des Activités Physiques du Wouri au Littoral, au Cameroun."></x-card.
         <!-- End Grid -->
     </div>
 
-    <section class="mx-auto max-w-screen-2xl px-10 sm:px-6 lg:px-8 lg:py-16 sm:my-16">
+    <section class="mx-auto max-w-screen-2xl mb-16 md:mb-0 px-10 sm:px-6 lg:px-8 lg:py-16 sm:my-16">
         <div class="pb-10">
-            <div class="flex justify-between items-center">
-                <div class="max-w-[538px]">
-                    <h2 class="title-section">Notre activité</h2>
-                    <p class="paragraph">Rechercher des partenariats entre des villes américaines et les municipalités camerounaises, tout en accompagnant leur mise en œuvre.</p>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="max-w-[650px] mb-4">
+                    <h2 class="title-section pb-3">Notre activité</h2>
+                    <p class="text-[#575756] text-lg md:text-2xl">Rechercher des partenariats entre des villes américaines et les municipalités camerounaises, tout en accompagnant leur mise en œuvre.</p>
                 </div>
                 <x-primary-button href="#">
                     {{ __('Devenir Membre') }}
                 </x-primary-button>
             </div>
         </div>
-        <div class="flex gap-2 justify-between items-center flex-wrap">
+        <div class="flex flex-col md:flex-row gap-8 justify-between items-center flex-wrap">
             <div class="flex-1">
-                <img src="{{asset('assets/images/diaspora-en-action.png')}}" class="w-full bg-cover" alt="">
-                <h3 class="card-title py-4">Diaspora en action</h3>
-                <p class="paragraph">Promouvoir auprès de ceux et celles de la diaspora la culture du retour aux sources afin de contribuer au développement et à la prospérité du continent africain.</p>
+                <img src="{{asset('assets/images/diaspora-en-action.png')}}" class="w-full bg-cover mb-10" alt="">
+                <h3 class="text-2xl font-bold py-4 mt-3 ">Diaspora en action</h3>
+                <p class="text-lg">Promouvoir auprès de ceux et celles de la diaspora la culture du retour aux sources afin de contribuer au développement et à la prospérité du continent africain.</p>
             </div>
             <div class="flex-1">
                 <img src="{{asset('assets/images/diaspora-en-action.png')}}" class="w-full bg-cover" alt="">
-                <h3 class="card-title py-4">ADAP-International œuvre à améliorer les conditions de travail dans les hôpitaux.</h3>
-                <p class="paragraph">Initiative de collecte et remise de matériels médicaux aux hôpitaux Initiative de collecte et remise de matériels médicaux aux hôpitaux.</p>
+                <h3 class="text-2xl font-bold py-4 mt-3">ADAP-International œuvre à améliorer les conditions de travail dans les hôpitaux.</h3>
+                <p class="text-lg">Initiative de collecte et remise de matériels médicaux aux hôpitaux Initiative de collecte et remise de matériels médicaux aux hôpitaux.</p>
             </div>
         </div>
 
     </section>
 
     <!-- End Card Section -->
-    <section class="bg-cover  bg-center bg-no-repeat"
+    <section class="bg-cover bg-center bg-no-repeat"
              style="background-image: url('{{ asset('assets/images/bg-action.jpg') }}');">
 
         <div class="relative z-50 p-8 md:p-12 lg:px-16 lg:py-24 " style=" z-index: 1000;">
             <div class="flex justify-end ">
-                <div class="p-16 max-w-2xl">
-                    <h2 class="text-5xl text-white font-semibold ">Rendons le monde meilleur ensemble</h2>
+                <div class="md:p-16 w-full md:max-w-2xl">
+                    <h2 class="text-4xl md:text-5xl text-white font-semibold ">Rendons le monde meilleur ensemble</h2>
                     <a href="#"
                        class="mt-8 inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
                         FAIRE UN DON
