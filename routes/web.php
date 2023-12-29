@@ -8,6 +8,7 @@ use App\Http\Controllers\IndexActionSocials;
 use App\Http\Controllers\OurActionController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RiskyImmigrationController;
+use App\Http\Controllers\SendMailController;
 use App\Http\Controllers\TourismSolidarityController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,6 +26,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomeController::class)->name('home');
 Route::get('/contact', ContactController::class)->name('contact');
+Route::post('/contact-send', [SendMailController::class, 'sendContactEmail'])->name('contact.send');
 Route::get('/qui-sommes-nous', AboutController::class)->name('about');
 Route::get('/notre-actualite', Blog::class)->name('blog');
 Route::get('/immigration-responsable', RiskyImmigrationController::class)->name('immigrat');

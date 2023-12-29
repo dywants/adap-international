@@ -12,6 +12,21 @@
                 }
             </style>
 
+            @if (session()->has('success'))
+                <div class="relative flex flex-col sm:flex-row sm:items-center bg-gray-200 shadow rounded-md py-5 pl-6 pr-8 sm:pr-6 mb-3 mt-3">
+                    <div class="flex flex-row items-center border-b sm:border-b-0 w-full sm:w-auto pb-4 sm:pb-0">
+                        <div class="text-green-500" >
+                            <svg class="w-6 sm:w-5 h-6 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div class="text-sm font-medium ml-3">Success!.</div>
+                    </div>
+                    <div class="text-sm tracking-wide text-gray-500 dark:text-white mt-4 sm:mt-0 sm:ml-4"> {{ session('success') }}</div>
+                    <div class="absolute sm:relative sm:top-auto sm:right-auto ml-auto right-4 top-4 text-gray-400 hover:text-gray-800 cursor-pointer">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </div>
+                </div>
+            @endif
+
             <div class="px-6 py-12 md:px-12">
                 <div class="container mx-auto">
                     <div class="grid lg:grid-cols-6 gap-10 items-center">
@@ -19,27 +34,34 @@
                             <div class="block  px-6 py-12 md:px-12 lg:-mr-14">
                                 <h2 class="text-3xl font-bold mb-12 uppercase">
                                     Contactez-nous</h2>
-                                <form class="w-full">
+                                <form class="w-full" action="{{ route('contact.send') }}" method="POST">
+                                    @csrf
                                     <div class="flex flex-wrap -mx-3 mb-6">
                                         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                             <label
                                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                                 for="grid-first-name">
-                                                First Name
+                                                Votre Nom
                                             </label>
-                                            <input
+                                            <input name="name"
                                                 class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                                                id="grid-first-name" type="text" placeholder="Jane">
+                                                id="grid-first-name" type="text" placeholder="Jane Doe">
+                                            @error('name')
+                                                 <span class="text-xs text-red-500">{{$message}}</span>
+                                            @enderror
                                         </div>
                                         <div class="w-full md:w-1/2 px-3">
                                             <label
                                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                                 for="grid-last-name">
-                                                Last Name
+                                                E-mail
                                             </label>
-                                            <input
+                                            <input name="email"
                                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                                id="grid-last-name" type="text" placeholder="Doe">
+                                                id="grid-last-name" type="email" placeholder="votre@email.com">
+                                            @error('email')
+                                            <span class="text-xs text-red-500">{{$message}}</span>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="flex flex-wrap -mx-3 mb-6">
@@ -47,11 +69,14 @@
                                             <label
                                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                                 for="grid-password">
-                                                E-mail
+                                               Sujet de votre email
                                             </label>
-                                            <input
+                                            <input name="subject"
                                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                                id="email" type="email">
+                                                id="subject" type="text">
+                                            @error('subject')
+                                            <span class="text-xs text-red-500">{{$message}}</span>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="flex flex-wrap -mx-3 mb-6">
@@ -61,14 +86,17 @@
                                                 for="grid-password">
                                                 Message
                                             </label>
-                                            <textarea
+                                            <textarea name="message"
                                                 class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                                                 id="message"></textarea>
+                                            @error('message')
+                                            <span class="text-xs text-red-500">{{$message}}</span>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="md:flex md:items-center">
                                         <div class="md:w-1/3">
-                                            <x-primary-button href="#" class="">
+                                            <x-primary-button>
                                                 {{ __('Envoyez') }}
                                             </x-primary-button>
                                         </div>
@@ -93,8 +121,7 @@
                                    <h4 class="text-lg font-medium">Cameroon address</h4>
                                    <span>contact@adap-international.org</span>
                                    <address class="non-italic">
-                                       Neue Schönhauser Str. 3-5,
-                                       <br>10178 Berlin
+                                       P.O Box: 18700 Douala Cameroun
                                    </address>
 
                                </div>
