@@ -16,6 +16,21 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+
+                <x-dropdown align="right" width="48">
+                    <x-slot name="trigger">
+                        Langue
+                    </x-slot>
+
+                    <x-slot name="content">
+                        @foreach(config('localization.locales') as $locale)
+                            <x-dropdown-link :href="route('localization', $locale)">
+                                {{ __($locale) }}
+                            </x-dropdown-link>
+                        @endforeach
+                    </x-slot>
+                </x-dropdown>
+
             </div>
 
             <!-- Settings Dropdown -->

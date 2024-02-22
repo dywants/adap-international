@@ -1,13 +1,13 @@
 <header x-data="{ isOpen: false }" class="shadow-navbar">
 
     <!-- Announcement Banner -->
-    <a class="group block bg-gray-200 p-4 rounded-md text-center transition-all duration-300" href="#">
-        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
-            <p class="mr-2 inline-block text-sm text-gray-800">
-                THIS BILINGUAL WEBSITE IS UNDER NEW CONSTRUCTION
-            </p>
-        </div>
-    </a>
+{{--    <a class="group block bg-gray-200 p-4 rounded-md text-center transition-all duration-300" href="#">--}}
+{{--        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">--}}
+{{--            <p class="mr-2 inline-block text-sm text-gray-800">--}}
+{{--                THIS BILINGUAL WEBSITE IS UNDER NEW CONSTRUCTION--}}
+{{--            </p>--}}
+{{--        </div>--}}
+{{--    </a>--}}
     <!-- End Announcement Banner -->
 
     <div class="mx-auto max-w-screen-2xl">
@@ -22,8 +22,8 @@
             <div aria-label="Site Nav" class=" hidden sm:block" :class="{ 'block': isOpen, 'hidden': !isOpen }"
                  x-show.transition="true">
                 <div class="hidden sm:block">
-                    <div class="grid justify-items-end border-b">
-                        <div class="flex gap-2 pb-4">
+                    <div class="grid justify-items-end  border-b">
+                        <div class="flex items-center gap-2 pb-4">
                             <div class="flex gap-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                      class="w-4 h-4">
@@ -44,7 +44,26 @@
 
                                 <span class="text-xs text-gray-400">contact@adap-international.org</span>
                             </div>
+
+                            <x-dropdown align="right" width="20">
+                                <x-slot name="trigger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+                                    </svg>
+                                </x-slot>
+
+                                <x-slot name="content">
+                                    @foreach(config('localization.locales') as $locale)
+                                        <x-dropdown-link :href="route('localization', $locale)">
+                                            {{ __($locale) }}
+                                        </x-dropdown-link>
+                                    @endforeach
+                                </x-slot>
+                            </x-dropdown>
                         </div>
+
+
+
 
                         {{--                    <div class="relative">--}}
                         {{--                        <label class="sr-only" for="search"> Search </label>--}}

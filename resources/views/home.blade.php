@@ -91,11 +91,11 @@
                 </x-primary-button>
             </div>
         </div>
-        <div class="card-grid-4 space-y-6 space-y-0">
+        <div class="card-grid-4 space-y-6 md:space-y-0">
             <x-card.services
                 title="Tourisme Humanitaire"
                 image="{{asset('assets/images/tourisme-volontaire/herve-j.JPG')}}"
-                url="#"
+                url="{{ route('tourism') }}"
                 paragraph="Nous organissons des visites guidées du Cameroun à coût réduit. Mais en contrepartie, le touriste peut nous offrir..."></x-card.services>
             <x-card.services title="Actions sociales"
                              image="{{asset('assets/images/action-social.jpeg')}}"
@@ -216,7 +216,8 @@ Sports et des Activités Physiques du ..."></x-card.services>
                 <p class="text-lg">Promouvoir auprès de ceux et celles de la diaspora la culture du retour aux sources afin de contribuer au développement et à la prospérité du continent africain.</p>
             </div>
             <div class="flex-1">
-                <img src="{{asset('assets/images/diaspora-en-action.png')}}" class="w-full bg-cover" alt="">
+                <img src="{{asset('assets/images/home/adap-international.jpeg')}}" class="w-full object-cover h-[410px] bg-cover rounded-2xl" alt="">
+
                 <h3 class="text-2xl font-bold py-4 mt-3">ADAP-International œuvre à améliorer les conditions de travail dans les hôpitaux.</h3>
                 <p class="text-lg">Initiative de collecte et remise de matériels médicaux aux hôpitaux Initiative de collecte et remise de matériels médicaux aux hôpitaux.</p>
             </div>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <header class="bg-cover bg-center bg-no-repeat mx-auto max-w-[1460px] rounded-md h-[530px] px-10" style="background-image: url('{{ asset('assets/images/actions-diaspora.png')}}'); ">
+    <header class="bg-cover bg-center bg-no-repeat mx-auto max-w-[1460px] rounded-md h-[530px] px-10" style="background-image: url('{{ asset('assets/images/nos-actions/header.png')}}'); ">
         <div class="absolute max-w-[1460px] bg-graded mx-auto px-10 inset-0 h-[530px] "></div>
 
         <div class="relative mx-auto h-auto max-w-screen-2xl px-10 py-32 sm:px-6 lg:flex lg:items-center lg:px-8">
@@ -26,13 +26,13 @@
         <div class="flex gap-16 items-center justify-between flex-wrap">
             <div class="flex-1 space-y-4">
                 <img src="{{ asset("assets/images/nos-actions/tourism-1.png") }}" class="w-full bg-cover" alt="">
-                <div class="flex items-center gap-4">
-                    <img src="{{ asset("assets/images/nos-actions/tourism-2.png") }}" class="w-full bg-cover" alt="">
-                    <img src="{{ asset("assets/images/nos-actions/tourism-3.png") }}" class="w-full bg-cover" alt="">
-                </div>
+{{--                <div class="flex items-center gap-4">--}}
+{{--                    <img src="{{ asset("assets/images/nos-actions/tourism-2.png") }}" class="w-full bg-cover" alt="">--}}
+{{--                    <img src="{{ asset("assets/images/nos-actions/tourism-3.png") }}" class="w-full bg-cover" alt="">--}}
+{{--                </div>--}}
             </div>
             <div class="flex-1">
-                <h2 class="title-section mb-2">Tourisme solidaire</h2>
+                <h2 class="title-section mb-2">Tourisme humanitaire</h2>
                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima voluptatum reppour l’amélioration de la qualité de vie, le rapprochement des communautés africaines à travers les secteurs de l’éducation.</p>
                 <div class="py-8 flex justify-between gap-4 items-center">
                     <div>
@@ -59,10 +59,10 @@
         <div class="flex gap-16 items-center flex-row-reverse justify-between flex-wrap">
             <div class="flex-1 space-y-4">
                 <img src="{{ asset("assets/images/nos-actions/immigration-1.png") }}" class="w-full bg-cover" alt="">
-                <div class="flex items-center gap-4">
-                    <img src="{{ asset("assets/images/nos-actions/immigration-2.png") }}" class="w-full bg-cover" alt="">
-                    <img src="{{ asset("assets/images/nos-actions/immigration-3.png") }}" class="w-full bg-cover" alt="">
-                </div>
+{{--                <div class="flex items-center gap-4">--}}
+{{--                    <img src="{{ asset("assets/images/nos-actions/immigration-2.png") }}" class="w-full bg-cover" alt="">--}}
+{{--                    <img src="{{ asset("assets/images/nos-actions/immigration-3.png") }}" class="w-full bg-cover" alt="">--}}
+{{--                </div>--}}
             </div>
             <div class="flex-1">
                 <h2 class="title-section mb-2">Risky immigration</h2>
@@ -94,10 +94,10 @@
         <div class="flex gap-16 items-center justify-between flex-wrap">
             <div class="flex-1 space-y-4">
                 <img src="{{ asset("assets/images/nos-actions/programme-1.png") }}" class="w-full bg-cover" alt="">
-                <div class="flex items-center gap-4">
-                    <img src="{{ asset("assets/images/nos-actions/programme-2.png") }}" class="w-full bg-cover h-auto" alt="">
-                    <img src="{{ asset("assets/images/nos-actions/programme-3.png") }}" class="w-full bg-cover  h-auto" alt="">
-                </div>
+{{--                <div class="flex items-center gap-4">--}}
+{{--                    <img src="{{ asset("assets/images/nos-actions/programme-2.png") }}" class="w-full bg-cover h-auto" alt="">--}}
+{{--                    <img src="{{ asset("assets/images/nos-actions/programme-3.png") }}" class="w-full bg-cover  h-auto" alt="">--}}
+{{--                </div>--}}
             </div>
             <div class="flex-1">
                 <h2 class="title-section mb-2">Programmes clés</h2>

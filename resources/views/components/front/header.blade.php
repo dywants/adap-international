@@ -4,14 +4,14 @@
     <div class="relative mx-auto h-auto max-w-screen-2xl px-10 py-32 sm:px-6 md:flex md:items-center md:px-8">
         <div class="max-w-2xl md:max-w-3xl text-left">
             <h1 class="text-4xl text-white text-left font-extrabold md:text-6xl leading-9">
-                Association Internationale pour <span class="text-[#0000FF]">le Développement,</span>
+                {{ __('home.headerText') }} <span class="text-[#0000FF]">{{ __('home.headerText2') }}</span>
                 <strong class="block font-extrabold text-secondary">
-                    l’Assistance et la Paix
+                    {{ __('home.headerText3') }}
                 </strong>
             </h1>
 
             <p class="mt-4 sm:text-xl text-white sm:leading-relaxed">
-                L’ENTREPRENARIAT SOCIAL, UN REEL SACERDOCE QUI COMMANDE VOLONTÉ, INGENIOSITE ET MÉTHODOLOGIE.
+                {{ __('home.subHeaderText') }}
             </p>
 
             <div class="flex flex-wrap mt-4">
