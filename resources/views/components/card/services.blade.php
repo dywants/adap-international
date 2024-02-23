@@ -4,7 +4,7 @@
         <h3 class="text-xl font-bold py-4">{{ $title }}</h3>
         <p class="paragraph text-base mb-2">{{$paragraph}}</p>
         <a href="{{$url}}" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
-            <span class="text-white text-xs">En savoir plus</span>
+            <span class="text-white text-xs"> {{ __('navbar.button-3') }}</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                  class="w-6 h-6 text-white">
                 <path fill-rule="evenodd"

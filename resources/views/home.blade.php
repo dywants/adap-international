@@ -7,10 +7,8 @@
 
     <div class="mx-auto max-w-screen-2xl px-10 py-10 sm:px-6 lg:px-8 lg:py-16">
         <div class="w-full md:px-10 py-6 md:px-4 mx-auto mb-10">
-            <h2 class="md:text-center text-dark md:px-8 md:px-20 text-2xl md:text-4xl font-semibold mb-4">Rechercher des partenariats entre des villes américaines et les
-                municipalités camerounaises, tout en accompagnant leur mise en œuvre</h2>
-            <p class="mx-auto text-[#575756] text-lg md:text-2xl md:text-center">Aider au renforcement des capacités des citoyens dans la défense de leurs
-                droits et intérêts </p>
+            <h2 class="md:text-center text-dark md:px-8 md:px-20 text-2xl md:text-4xl font-semibold mb-4">{{ __('home.title-0') }}</h2>
+            <p class="mx-auto text-[#575756] text-lg md:text-2xl md:text-center">{{ __('home.title-1') }}</p>
         </div>
         <div class="flex flex-col md:flex-row md:px-o items-center gap-4 mb-10">
             <div class="w-full md:w-[1000px]">
@@ -18,14 +16,14 @@
                    <div class="w-full flex flex-col md:flex-row gap-2 items-center">
                        <img class="w-full hidden md:block md:h-[300px]" src="{{ asset('assets/images/home/img-mission.png')}}" alt="image section mission">
                        <div class="p-8 rounded-3xl bg-[#F5FAF1] md:h-[300px] flex flex-col justify-center">
-                           <h3 class="text-dark font-semibold text-3xl">Notre mission</h3>
-                           <p class="leading-7 md:leading-8 text-lg">Œuvrer pour l'amélioration de la qualité de vie, le rapprochement des communautés africaines à travers les secteurs de l'éducation et de l'entrepreneuriat jeune, la réservation de l'environnement, le renforcement de l'economie locale, la promotion de la paix, le développement du potentiel sportif et l'accès aux services de base.</p>
+                           <h3 class="text-dark font-semibold text-3xl">{{ __('home.section-0.title') }}</h3>
+                           <p class="leading-7 md:leading-8 text-lg">{{ __('home.section-0.text') }}</p>
                        </div>
                    </div>
                    <div class="flex flex-col md:flex-row gap-2 items-center">
                        <div class="p-8 rounded-3xl bg-[#EEF6F8] h-[300px] flex flex-col justify-center">
-                           <h3 class="text-dark font-semibold text-3xl">Notre vision</h3>
-                           <p class="leading-7 md:leading-8 text-lg">Participer à la construction d'une société globale dans laquelle les rapports humains seront privilégiés entre les africains résidant en Afrique et les diasporas africaines à travers le monde.</p>
+                           <h3 class="text-dark font-semibold text-3xl">{{ __('home.section-1.title') }}</h3>
+                           <p class="leading-7 md:leading-8 text-lg">{{ __('home.section-1.text') }}</p>
                        </div>
                        <img class="h-[300px] hidden md:block" src="{{ asset('assets/images/home/img-vision.png')}}" alt="image section mission">
                    </div>
@@ -35,7 +33,7 @@
                 <img src="{{ asset('assets/images/home/bg-card.jpeg')}}" alt="image" class="rounded-xl">
                <div class="absolute left-10 bottom-8">
                    <x-primary-button href="#" class="w-full">
-                       {{ __('Nous soutenir') }}
+                       {{ __('navbar.button-2') }}
                    </x-primary-button>
                </div>
             </div>
@@ -47,34 +45,34 @@
            <div class="pb-10 md:px-10">
                <div class="flex flex-col md:flex-row justify-between md:items-center">
                    <div class="max-w-[658px] mb-8 md:mb-0">
-                       <h2 class="title-section pb-4">Nos domaines d’activités</h2>
+                       <h2 class="title-section pb-4">{{ __('home.section-2.title') }}</h2>
                        <p class="text-2xl">
-                           Ils constituent le socle du double but fondateur et guident les diverses activités de l’association dans l’optique de : </p>
+                           {{ __('home.section-2.subtitle') }}</p>
                    </div>
                    <x-primary-button href="#">
-                       {{ __('Nous soutenir') }}
+                       {{ __('navbar.button-2') }}
                    </x-primary-button>
                </div>
            </div>
            <div class="flex md:py-8 card-activity flex-wrap gap-4">
-               <x-card.activity title="Education"
+               <x-card.activity title="{{ __('home.activites.act-0.title') }}"
                                 icon="{{asset('assets/images/icons/icon-education.png')}}"
-                                paragraph="Rendre l’éducation accessible pour les couches défavorisées"/>
-               <x-card.activity title="Assistance médicale"
+                                paragraph="{{ __('home.activites.act-0.text') }}"/>
+               <x-card.activity title="{{ __('home.activites.act-1.title') }}"
                                 icon="{{asset('assets/images/icons/icon-medicale.png')}}"
-                                paragraph="Apporter une assistance médicale aux nécessiteux sur le continent africain"/>
-               <x-card.activity title="Droit de l’homme"
+                                paragraph="{{ __('home.activites.act-1.text') }}"/>
+               <x-card.activity title="{{ __('home.activites.act-2.title') }}"
                                 icon="{{asset('assets/images/icons/icon-droit.png')}}"
-                                paragraph="Aider au renforcement des capacités des citoyens dans la défense de leurs droits et intérêts"/>
-               <x-card.activity title="Culture"
+                                paragraph="{{ __('home.activites.act-2.text') }}"/>
+               <x-card.activity title="{{ __('home.activites.act-3.title') }}"
                                 icon="{{asset('assets/images/icons/icon-culture.png')}}"
-                                paragraph="Promouvoir la culture, l’histoire, les valeurs traditionnelles et ancestrales africaines"/>
-               <x-card.activity title="Tourisme Africain"
+                                paragraph="{{ __('home.activites.act-3.text') }}"/>
+               <x-card.activity title="{{ __('home.activites.act-4.title') }}"
                                 icon="{{asset('assets/images/icons/icon-tourism.png')}}"
-                                paragraph="Nous organissons des visites guidées du Cameroun à coût réduit. "/>
-               <x-card.activity title="Sport & Loisir"
+                                paragraph="{{ __('home.activites.act-4.text') }}"/>
+               <x-card.activity title="{{ __('home.activites.act-5.title') }}"
                                 icon="{{asset('assets/images/icons/icon-sport.png')}}"
-                                paragraph="Promouvoir les activités et infrastructures sportives dans les quartiers défavorisés "/>
+                                paragraph="{{ __('home.activites.act-5.text') }}"/>
            </div>
        </div>
     </section>
@@ -83,33 +81,32 @@
         <div class="pb-10">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="w-full md:max-w-[800px] mb-4 md:mb-0">
-                    <h2 class="title-section pb-4">Nos services</h2>
-                    <p class="mx-auto text-[#575756] text-lg md:text-2xl">ADAP-International entend fortement coopérer avec les collectivités municipales dans les domaines du tourisme, l’encadrement de la jeunesse désœuvrée. </p>
+                    <h2 class="title-section pb-4">{{ __('home.section-3.title') }}</h2>
+                    <p class="mx-auto text-[#575756] text-lg md:text-2xl">{{ __('home.section-3.subtitle') }}</p>
                 </div>
                 <x-primary-button href="#">
-                    {{ __('Nous soutenir') }}
+                    {{ __('navbar.button-2') }}
                 </x-primary-button>
             </div>
         </div>
         <div class="card-grid-4 space-y-6 md:space-y-0">
             <x-card.services
-                title="Tourisme Humanitaire"
+                title="{{ __('home.services.serv-0.title') }}"
                 image="{{asset('assets/images/tourisme-volontaire/herve-j.JPG')}}"
                 url="{{ route('tourism') }}"
-                paragraph="Nous organissons des visites guidées du Cameroun à coût réduit. Mais en contrepartie, le touriste peut nous offrir..."></x-card.services>
-            <x-card.services title="Actions sociales"
+                paragraph="{{ __('home.services.serv-0.text') }}"></x-card.services>
+            <x-card.services title="{{ __('home.services.serv-1.title') }}"
                              image="{{asset('assets/images/action-social.jpeg')}}"
                              url="{{ route('actions-socials') }}"
-                             paragraph="Promouvoir l’alphabétisation et vulgariser les Technologies de l’Information et de la Communication en Afrique"></x-card.services>
-            <x-card.services title="Mise en Vitrine de nos C.T.D"
+                             paragraph="{{ __('home.services.serv-1.text') }}"></x-card.services>
+            <x-card.services title="{{ __('home.services.serv-2.title') }}"
                              image="{{asset('assets/images/elus-cameroun.jpeg')}}"
                              url="#"
-                             paragraph="Permettre la presentatiom et mise en avant des actions des élus du Cameroun, des collectivités territoriales décentralisées..."></x-card.services>
-            <x-card.services title="Un Sport/Un Métier"
+                             paragraph="{{ __('home.services.serv-2.text') }}"></x-card.services>
+            <x-card.services title="{{ __('home.services.serv-3.title') }}"
                              image="{{asset('assets/images/adap-sport.jpg')}}"
                              url="#"
-                             paragraph="En 2008, lancement du Centre ADAP Inter-Sports en la présence du Délégué des
-Sports et des Activités Physiques du ..."></x-card.services>
+                             paragraph="{{ __('home.services.serv-3.text') }}"></x-card.services>
         </div>
     </section>
 
@@ -201,25 +198,25 @@ Sports et des Activités Physiques du ..."></x-card.services>
         <div class="pb-10">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="max-w-[650px] mb-4">
-                    <h2 class="title-section pb-3">Notre activité</h2>
-                    <p class="text-[#575756] text-lg md:text-2xl">Rechercher des partenariats entre des villes américaines et les municipalités camerounaises, tout en accompagnant leur mise en œuvre.</p>
+                    <h2 class="title-section pb-3">{{ __('home.section-4.title') }}</h2>
+                    <p class="text-[#575756] text-lg md:text-2xl">{{ __('home.section-4.text') }}</p>
                 </div>
                 <x-primary-button href="#">
-                    {{ __('Devenir Membre') }}
+                    {{ __('navbar.button-0') }}
                 </x-primary-button>
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-8 justify-between items-center flex-wrap">
             <div class="flex-1">
                 <img src="{{asset('assets/images/diaspora-en-action.png')}}" class="w-full bg-cover mb-10" alt="">
-                <h3 class="text-2xl font-bold py-4 mt-3 ">Diaspora en action</h3>
-                <p class="text-lg">Promouvoir auprès de ceux et celles de la diaspora la culture du retour aux sources afin de contribuer au développement et à la prospérité du continent africain.</p>
+                <h3 class="text-2xl font-bold py-4 mt-3 ">{{ __('home.actions.act-0.title') }}</h3>
+                <p class="text-lg">{{ __('home.actions.act-0.text') }}</p>
             </div>
             <div class="flex-1">
                 <img src="{{asset('assets/images/home/adap-international.jpeg')}}" class="w-full object-cover h-[410px] bg-cover rounded-2xl" alt="">
 
-                <h3 class="text-2xl font-bold py-4 mt-3">ADAP-International œuvre à améliorer les conditions de travail dans les hôpitaux.</h3>
-                <p class="text-lg">Initiative de collecte et remise de matériels médicaux aux hôpitaux Initiative de collecte et remise de matériels médicaux aux hôpitaux.</p>
+                <h3 class="text-2xl font-bold py-4 mt-3">{{ __('home.actions.act-1.title') }}</h3>
+                <p class="text-lg">{{ __('home.actions.act-1.text') }}</p>
             </div>
         </div>
 
@@ -232,10 +229,10 @@ Sports et des Activités Physiques du ..."></x-card.services>
         <div class="relative z-50 p-8 md:p-12 lg:px-16 lg:py-24 " style=" z-index: 1000;">
             <div class="flex justify-end ">
                 <div class="md:p-16 w-full md:max-w-2xl">
-                    <h2 class="text-4xl md:text-5xl text-white font-semibold ">Rendons le monde meilleur ensemble</h2>
+                    <h2 class="text-4xl md:text-5xl text-white font-semibold ">{{ __('home.call-to-action') }}</h2>
                     <a href="#"
                        class="mt-8 inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
-                        FAIRE UN DON
+                        {{ __('navbar.button-1') }}
                     </a>
                 </div>
             </div>

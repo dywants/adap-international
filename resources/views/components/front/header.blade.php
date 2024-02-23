@@ -16,7 +16,7 @@
 
             <div class="flex flex-wrap mt-4">
                 <x-primary-button href="#" class="">
-                    {{ __('Nous soutenir') }}
+                    {{ __('navbar.button-2') }}
                 </x-primary-button>
             </div>
         </div>

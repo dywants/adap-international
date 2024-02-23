@@ -102,19 +102,19 @@
                 <div class="mx-auto max-w-screen-xl text-sm font-medium">
                     <div class="flex flex-col items-center sm:flex-row sm:justify-between text-center gap-8  py-4">
                         <div class="space-x-8">
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('home') }}">Accueil</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('about') }}">Qui sommes-nous </a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('Oactions') }}">Programmes clés</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('tourism') }}">Tourisme Humanitaire</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('immigrat') }}">Risky immigration</a>
-                            <a class="text-white text-base" @click="isOpen = false" href="{{ route('contact') }}">Contact</a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('home') }}"> {{ __('navbar.nav.nav-0') }}</a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('about') }}"> {{ __('navbar.nav.nav-1') }} </a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('Oactions') }}"> {{ __('navbar.nav.nav-2') }}</a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('tourism') }}"> {{ __('navbar.nav.nav-3') }}</a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('immigrat') }}"> {{ __('navbar.nav.nav-4') }}</a>
+                            <a class="text-white text-base" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
                         </div>
                         <div class="">
                             <x-secondary-button href="#" class="ml-3">
-                                {{ __('Devenir Membre') }}
+                                {{ __('navbar.button-0') }}
                             </x-secondary-button>
                             <x-primary-button href="#" class="ml-3">
-                                {{ __('Faire un don') }}
+                                {{ __('navbar.button-1') }}
                             </x-primary-button>
 {{--                            <a class="text-white text-base px-2.5 py-2 bg-black hover:opacity-75 rounded-md" @click="isOpen = false" href="{{ route('blog') }}">Etre membre</a>--}}
 {{--                            <a class="text-white text-base px-2.5 py-2 bg-black hover:opacity-75 rounded-md" @click="isOpen = false" href="{{ route('blog') }}">Faire un don</a>--}}

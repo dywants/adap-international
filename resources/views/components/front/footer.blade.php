@@ -10,8 +10,7 @@
                 <p
                     class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left"
                 >
-                    En Créant ADAP-International au Cameroun à l’orée des années 2002, Nous voulions penser et
-                    implémenter une nouvelle façon d’œuvrer dans le social.
+                    {{ __('navbar.footer.present') }}
                 </p>
 
                 <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -89,7 +88,7 @@
                 class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2"
             >
                 <div class="text-center sm:text-left">
-                    <p class="text-lg font-medium text-gray-900">Liens rapides</p>
+                    <p class="text-lg font-medium text-gray-900">{{ __('navbar.footer.lien-0.name') }}</p>
 
                     <nav aria-label="Footer About Nav" class="mt-8">
                         <ul class="space-y-4 text-sm">
@@ -98,7 +97,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="{{ route('about') }}"
                                 >
-                                    Qui sommes nous?
+                                    {{ __('navbar.footer.lien-0.lien-0') }}
                                 </a>
                             </li>
 
@@ -107,7 +106,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="{{route('tourism')}}"
                                 >
-                                    Tourisme Humanitaire
+                                    {{ __('navbar.footer.lien-0.lien-1') }}
                                 </a>
                             </li>
 
@@ -116,7 +115,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="/"
                                 >
-                                    Devenir Membre
+                                    {{ __('navbar.footer.lien-0.lien-2') }}
                                 </a>
                             </li>
 
@@ -125,7 +124,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="{{route('contact')}}"
                                 >
-                                    Contactez-nous
+                                    {{ __('navbar.footer.lien-0.lien-3') }}
                                 </a>
                             </li>
                         </ul>
@@ -133,7 +132,7 @@
                 </div>
 
                 <div class="text-center sm:text-left">
-                    <p class="text-lg font-medium text-gray-900">Nos actions</p>
+                    <p class="text-lg font-medium text-gray-900">{{ __('navbar.footer.lien-1.name') }}</p>
 
                     <nav aria-label="Footer Services Nav" class="mt-8">
                         <ul class="space-y-4 text-sm">
@@ -142,7 +141,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="/"
                                 >
-                                    Vitrine de nos C.T.D
+                                    {{ __('navbar.footer.lien-1.lien-0') }}
                                 </a>
                             </li>
 
@@ -151,7 +150,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="/"
                                 >
-                                    Un Sport/Un Métier
+                                    {{ __('navbar.footer.lien-1.lien-1') }}
                                 </a>
                             </li>
 
@@ -160,7 +159,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="/"
                                 >
-                                    Assistance aux Hôpitaux
+                                    {{ __('navbar.footer.lien-1.lien-2') }}
                                 </a>
                             </li>
 
@@ -169,7 +168,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="/"
                                 >
-                                    Actions sociales
+                                    {{ __('navbar.footer.lien-1.lien-3') }}
                                 </a>
                             </li>
                         </ul>
@@ -177,7 +176,7 @@
                 </div>
 
                 <div class="text-center sm:text-left">
-                    <p class="text-lg font-medium text-gray-900">Liens utiles</p>
+                    <p class="text-lg font-medium text-gray-900">{{ __('navbar.footer.lien-2.name') }}</p>
 
                     <nav aria-label="Footer Helpful Nav" class="mt-8">
                         <ul class="space-y-4 text-sm">
@@ -233,7 +232,7 @@
                 </div>
 
                 <div class="text-center sm:text-left">
-                    <p class="text-lg font-medium text-gray-900">Contact Us</p>
+                    <p class="text-lg font-medium text-gray-900">{{ __('navbar.footer.lien-0.lien-3') }}</p>
 
                     <div>
 
