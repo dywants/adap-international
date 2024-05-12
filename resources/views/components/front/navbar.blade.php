@@ -1,15 +1,5 @@
 <header x-data="{ isOpen: false }" class="shadow-navbar">
 
-    <!-- Announcement Banner -->
-{{--    <a class="group block bg-gray-200 p-4 rounded-md text-center transition-all duration-300" href="#">--}}
-{{--        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">--}}
-{{--            <p class="mr-2 inline-block text-sm text-gray-800">--}}
-{{--                THIS BILINGUAL WEBSITE IS UNDER NEW CONSTRUCTION--}}
-{{--            </p>--}}
-{{--        </div>--}}
-{{--    </a>--}}
-    <!-- End Announcement Banner -->
-
     <div class="mx-auto max-w-screen-2xl">
         <div class="flex items-center justify-between gap-4 px-10 py-2 lg:gap-10">
             <div class="flex lg:w-0 lg:flex-1 ">
@@ -61,41 +51,6 @@
                                 </x-slot>
                             </x-dropdown>
                         </div>
-
-
-
-
-                        {{--                    <div class="relative">--}}
-                        {{--                        <label class="sr-only" for="search"> Search </label>--}}
-
-                        {{--                        <input--}}
-                        {{--                            class="h-10 w-full rounded-full border-1 bg-white pl-4 pr-10 text-sm shadow-sm sm:w-56"--}}
-                        {{--                            id="search"--}}
-                        {{--                            type="search"--}}
-                        {{--                            placeholder="Search website..."--}}
-                        {{--                        />--}}
-
-                        {{--                        <button--}}
-                        {{--                            type="button"--}}
-                        {{--                            class="absolute top-1/2 right-1 -translate-y-1/2 rounded-full bg-gray-50 p-2 text-gray-600 transition hover:text-gray-700"--}}
-                        {{--                        >--}}
-                        {{--                            <span class="sr-only">Search</span>--}}
-                        {{--                            <svg--}}
-                        {{--                                xmlns="http://www.w3.org/2000/svg"--}}
-                        {{--                                class="h-4 w-4"--}}
-                        {{--                                fill="none"--}}
-                        {{--                                viewBox="0 0 24 24"--}}
-                        {{--                                stroke="currentColor"--}}
-                        {{--                                stroke-width="2"--}}
-                        {{--                            >--}}
-                        {{--                                <path--}}
-                        {{--                                    stroke-linecap="round"--}}
-                        {{--                                    stroke-linejoin="round"--}}
-                        {{--                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"--}}
-                        {{--                                />--}}
-                        {{--                            </svg>--}}
-                        {{--                        </button>--}}
-                        {{--                    </div>--}}
                     </div>
                 </div>
 
@@ -106,8 +61,9 @@
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('about') }}"> {{ __('navbar.nav.nav-1') }} </a>
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('Oactions') }}"> {{ __('navbar.nav.nav-2') }}</a>
                             <a class="text-dark text-base" @click="isOpen = false" href="{{ route('tourism') }}"> {{ __('navbar.nav.nav-3') }}</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('immigrat') }}"> {{ __('navbar.nav.nav-4') }}</a>
-                            <a class="text-white text-base" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
+{{--                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('immigrat') }}"> {{ __('navbar.nav.nav-4') }}</a>--}}
+                            <a class="text-dark text-base" @click="isOpen = false" target="_blank" href="https://blog.adap-international.org">{{ __('Blog') }}</a>
+                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
                         </div>
                         <div class="">
                             <x-secondary-button href="#" class="ml-3">
