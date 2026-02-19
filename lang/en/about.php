@@ -15,16 +15,21 @@ return [
         "text" => "Our actions work to improve the situation of the underprivileged and support local elected officials.",
         "stats" => [
             "stat-0" => [
+                "number" => "12",
+                "label" => "Social projects completed",
+                "description" => "12 social projects completed in the fields of education, health and community development.",
+            ],
+            "stat-1" => [
                 "number" => "+30",
                 "label" => "Completed Projects",
                 "description" => "Over 30 social projects completed in the fields of education, health and community development since our founding.",
             ],
-            "stat-1" => [
+            "stat-2" => [
                 "number" => "+125",
                 "label" => "Direct Beneficiaries",
                 "description" => "Over 125 families and communities have directly benefited from our assistance and development programs.",
             ],
-            "stat-2" => [
+            "stat-3" => [
                 "number" => "32",
                 "label" => "Active Partners",
                 "description" => "32 active partnerships between American cities and Cameroonian municipalities for sustainable development.",

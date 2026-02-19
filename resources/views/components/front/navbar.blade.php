@@ -69,10 +69,10 @@
                             <a class="text-base {{ request()->routeIs('contact') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
                         </div>
                         <div class="" @click="isOpen = false">
-                            <x-secondary-button href="#" class="ml-3">
+                            <x-secondary-button href="{{ route('contact') }}" class="ml-3">
                                 {{ __('navbar.button-0') }}
                             </x-secondary-button>
-                            <x-primary-button href="#" class="ml-3">
+                            <x-primary-button href="{{ route('contact') }}" class="ml-3">
                                 {{ __('navbar.button-1') }}
                             </x-primary-button>
 {{--                            <a class="text-white text-base px-2.5 py-2 bg-black hover:opacity-75 rounded-md" @click="isOpen = false" href="{{ route('blog') }}">Etre membre</a>--}}

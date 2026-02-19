@@ -15,16 +15,21 @@ return [
         "text" => "Nos actions œuvrent à l'amélioration de la situation des démunis et le soutien des élus locaux.",
         "stats" => [
             "stat-0" => [
+                "number" => "12",
+                "label" => "Projets sociaux menés à terme",
+                "description" => "12 projets sociaux menés à terme dans les domaines de l'éducation, la santé et le développement communautaire.",
+            ],
+            "stat-1" => [
                 "number" => "+30",
                 "label" => "Projets réalisés",
                 "description" => "Plus de 30 projets sociaux menés à terme dans les domaines de l'éducation, la santé et le développement communautaire depuis notre création.",
             ],
-            "stat-1" => [
+            "stat-2" => [
                 "number" => "+125",
                 "label" => "Bénéficiaires directs",
                 "description" => "Plus de 125 familles et communautés ont directement bénéficié de nos programmes d'assistance et de développement.",
             ],
-            "stat-2" => [
+            "stat-3" => [
                 "number" => "32",
                 "label" => "Partenaires actifs",
                 "description" => "32 partenariats actifs entre des villes américaines et des municipalités camerounaises pour un développement durable.",

@@ -103,5 +103,18 @@ return [
             "text" =>  "Initiative to collect and donate medical equipment to hospitals in real need of modern, more efficient tools."
         ]
     ],
-    "call-to-action" => "Making the world a better place"
+    "call-to-action" => "Making the world a better place",
+    "cards" => [
+        "card-0" => [
+            "title" => "Join us",
+            "text" => "For a great humanitarian adventure",
+        ],
+        "card-1" => [
+            "title" => "Support us",
+        ],
+        "card-2" => [
+            "title" => "Email us",
+            "text" => "contact@adap-international.org",
+        ],
+    ],
 ];

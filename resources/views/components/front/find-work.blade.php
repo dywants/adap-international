@@ -8,7 +8,7 @@
                     {{ __('about.section-0.text') }}
                 </p>
 
-                <a href="#"
+                <a href="{{ route('contact') }}"
                     class="mt-8 inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
                     {{ __('navbar.button-0') }}
                 </a>

@@ -103,5 +103,18 @@ return [
             "text" =>  "Initiative de collecte et remise de matériels médicaux aux hôpitaux ayant un réel besoins de modernité, d'outils plus performants"
         ]
     ],
-    "call-to-action" => "Rendons le monde meilleur ensemble"
+    "call-to-action" => "Rendons le monde meilleur ensemble",
+    "cards" => [
+        "card-0" => [
+            "title" => "Nous rejoindre",
+            "text" => "Pour une belle aventure humanitaire",
+        ],
+        "card-1" => [
+            "title" => "Nous soutenir",
+        ],
+        "card-2" => [
+            "title" => "Écrivez-nous",
+            "text" => "contact@adap-international.org",
+        ],
+    ],
 ];
