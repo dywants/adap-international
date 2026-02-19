@@ -80,11 +80,11 @@
 
 ### Implementation for User Story 4
 
-- [ ] T021 [US4] Fix `@@click` → `@click` bug in `resources/views/components/front/navbar.blade.php` — the double `@@` prevents Alpine.js hamburger menu from working on mobile (FR-004)
-- [ ] T022 [US4] Add active page indicator in `resources/views/components/front/navbar.blade.php` — use `request()->routeIs('name')` to conditionally apply active styling (e.g., `text-primary font-bold border-b-2 border-primary`) to the current page's nav link (FR-007)
-- [ ] T023 [US4] Replace hardcoded auth labels in `resources/views/components/front/navbar.blade.php` and `resources/views/layouts/navigation.blade.php` — "Dashboard" → `{{ __('navbar.auth.dashboard') }}`, "Profile" → `{{ __('navbar.auth.profile') }}`, "Log Out" → `{{ __('navbar.auth.logout') }}` (FR-006)
-- [ ] T024 [US4] Translate language selector label in `resources/views/components/front/navbar.blade.php` — replace hardcoded "Langue" with `{{ __('navbar.lang-label') }}` (FR-005)
-- [ ] T025 [US4] Ensure mobile menu closes on link click in `resources/views/components/front/navbar.blade.php` — add Alpine.js `@click="open = false"` on each navigation link inside the mobile drawer
+- [x] T021 [US4] Fix `@@click` → `@click` bug in `resources/views/components/front/navbar.blade.php` — the double `@@` prevents Alpine.js hamburger menu from working on mobile (FR-004)
+- [x] T022 [US4] Add active page indicator in `resources/views/components/front/navbar.blade.php` — use `request()->routeIs('name')` to conditionally apply active styling (e.g., `text-primary font-bold border-b-2 border-primary`) to the current page's nav link (FR-007)
+- [x] T023 [US4] Replace hardcoded auth labels in `resources/views/components/front/navbar.blade.php` and `resources/views/layouts/navigation.blade.php` — "Dashboard" → `{{ __('navbar.auth.dashboard') }}`, "Profile" → `{{ __('navbar.auth.profile') }}`, "Log Out" → `{{ __('navbar.auth.logout') }}` (FR-006)
+- [x] T024 [US4] Translate language selector label in `resources/views/components/front/navbar.blade.php` — replace hardcoded "Langue" with `{{ __('navbar.lang-label') }}` (FR-005)
+- [x] T025 [US4] Ensure mobile menu closes on link click in `resources/views/components/front/navbar.blade.php` — add Alpine.js `@click="open = false"` on each navigation link inside the mobile drawer
 
 **Checkpoint**: Hamburger menu opens/closes on mobile. Active page highlighted. Language selector shows "Langue"/"Language". Auth labels translated. Menu auto-closes on navigation.
 
