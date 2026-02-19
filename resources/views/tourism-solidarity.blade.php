@@ -4,7 +4,7 @@
     <section class="bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/images/tourisme-volontaire/herve-jouan.JPG')}}');">
         <div class="absolute inset-0 bg-white/75 h-[450px] sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
 
-        <div class="relative mx-auto h-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:items-center lg:px-8">
+        <div class="relative mx-auto h-auto max-w-screen-2xl px-4 py-12 lg:py-16 sm:px-6 lg:flex lg:items-center lg:px-8">
             <div class="max-w-2xl text-center sm:text-left">
                 <h1 class="text-3xl font-extrabold sm:text-5xl leading-9">
                     Tourisme et solidarité
@@ -21,10 +21,10 @@
     </section>
 
     <!-- Features -->
-    <section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <section class="max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <h2 class="text-center mb-10 text-3xl font-semibold">Comment ça marche?</h2>
         <!-- Tab Nav -->
-        <nav class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4" aria-label="Tabs" role="tablist">
+        <nav class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4" aria-label="Tabs" role="tablist">
             <button type="button"
                     class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl active"
                     id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1"
@@ -88,7 +88,7 @@
     <!-- End Features -->
 
     <!-- Features -->
-    <section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-8">
+    <section class="max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-8">
         <!-- Grid -->
         <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
             <div>

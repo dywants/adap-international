@@ -1,4 +1,4 @@
-<div class="w-[300px] md:w-full border-blue-50 border shadow-sm rounded">
+<div class="w-full border-blue-50 border shadow-sm rounded">
     <img src="{{$image}}" alt="image service" class="md:bg-cover h-[300px] w-full rounded-lg">
     <div class="px-3 pb-4">
         <h3 class="text-xl font-bold py-4">{{ $title }}</h3>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="container mb-24 px-6 mx-auto">
+    <div class="container mb-24 px-4 sm:px-6 lg:px-8 mx-auto">
 
         <!-- Section: Design Block -->
         <section class="mb-32 text-gray-800 ">
@@ -29,8 +29,8 @@
 
             <div class="px-6 py-12 md:px-12">
                 <div class="container mx-auto">
-                    <div class="grid lg:grid-cols-6 gap-10 items-center">
-                        <div class="md:mt-12 col-span-4 lg:mt-0 mb-12 lg:mb-0">
+                    <div class="grid grid-cols-1 lg:grid-cols-6 gap-10 items-center">
+                        <div class="col-span-1 lg:col-span-4 mb-12 lg:mb-0">
                             <div class="block  px-6 py-12 md:px-12 lg:-mr-14">
                                 <h2 class="text-3xl font-bold mb-12 uppercase">
                                     Contactez-nous</h2>
@@ -105,7 +105,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="md:mb-12 col-span-2 lg:mb-0">
+                        <div class="col-span-1 lg:col-span-2 mb-12 lg:mb-0">
                             <div class="j2x7_17hqRVmwte_tWFa czGmoDY2lMQ_0SyND3x7">
                                 <h3 class="text-2xl font-semibold">Points of contact</h3>
                                <div class="mt-4">

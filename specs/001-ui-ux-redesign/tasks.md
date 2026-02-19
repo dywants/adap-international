@@ -54,17 +54,17 @@
 
 ### Implementation for User Story 1
 
-- [ ] T010 [P] [US1] Fix responsive in `resources/views/components/card/activity.blade.php`: remove `w-[450px]`, replace with `w-full` per contracts/blade-components.md
-- [ ] T011 [P] [US1] Fix responsive in `resources/views/components/card/services.blade.php`: remove `w-[300px] md:w-full`, replace with `w-full` per contracts/blade-components.md
-- [ ] T012 [P] [US1] Create hero carousel component `resources/views/components/front/hero-carousel.blade.php` per contracts/blade-components.md — CSS scroll-snap container, 3 slides with `<img>` + object-cover, indicator dots with ARIA tablist, Alpine.js `heroCarousel()` data component
-- [ ] T013 [US1] Add `heroCarousel()` Alpine.js function in `resources/js/app.js` — currentSlide tracking, scrollTo(index), next(), startAutoplay(5s)/stopAutoplay(), pause on mouseenter/focusin, prefers-reduced-motion check, debounced scroll listener for dot sync
-- [ ] T014 [US1] Update `resources/views/home.blade.php`: replace existing static hero section with `<x-front.hero-carousel>` component, replace hardcoded widths (`md:w-[1000px]` → `w-full lg:w-2/3`, `md:w-[452px]` → `w-full lg:w-1/3`), replace `.card-grid-4` and `flex flex-wrap` parent containers with `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3` for activities and `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3` for services, standardize all `max-w-[Npx]` to `max-w-screen-2xl`
-- [ ] T015 [P] [US1] Fix responsive in `resources/views/our-actions.blade.php`: standardize `max-w-[1460px]` → `max-w-screen-2xl`, fix section spacing to use `<x-section-container>` or consistent `px-4 sm:px-6 lg:px-8 py-12 lg:py-16`
-- [ ] T016 [P] [US1] Fix responsive in `resources/views/a-propos.blade.php`: standardize max-w, replace inconsistent padding (`px-8 sm:px-20 my-16 sm:my-32`) with standard spacing
-- [ ] T017 [P] [US1] Fix responsive in `resources/views/contact.blade.php`: ensure form and address columns stack on mobile, standardize widths
-- [ ] T018 [P] [US1] Fix responsive in `resources/views/tourism-solidarity.blade.php`: standardize max-w, ensure tabs/content stack properly on mobile
-- [ ] T019 [P] [US1] Fix responsive in `resources/views/blog.blade.php`: ensure article cards stack on mobile with proper grid
-- [ ] T020 [P] [US1] Fix responsive in `resources/views/action-socials.blade.php`: standardize max-w, ensure content stacks on mobile
+- [x] T010 [P] [US1] Fix responsive in `resources/views/components/card/activity.blade.php`: remove `w-[450px]`, replace with `w-full` per contracts/blade-components.md
+- [x] T011 [P] [US1] Fix responsive in `resources/views/components/card/services.blade.php`: remove `w-[300px] md:w-full`, replace with `w-full` per contracts/blade-components.md
+- [x] T012 [P] [US1] Create hero carousel component `resources/views/components/front/hero-carousel.blade.php` per contracts/blade-components.md — CSS scroll-snap container, 3 slides with `<img>` + object-cover, indicator dots with ARIA tablist, Alpine.js `heroCarousel()` data component
+- [x] T013 [US1] Add `heroCarousel()` Alpine.js function in `resources/js/app.js` — currentSlide tracking, scrollTo(index), next(), startAutoplay(5s)/stopAutoplay(), pause on mouseenter/focusin, prefers-reduced-motion check, debounced scroll listener for dot sync
+- [x] T014 [US1] Update `resources/views/home.blade.php`: replace existing static hero section with `<x-front.hero-carousel>` component, replace hardcoded widths (`md:w-[1000px]` → `w-full lg:w-2/3`, `md:w-[452px]` → `w-full lg:w-1/3`), replace `.card-grid-4` and `flex flex-wrap` parent containers with `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3` for activities and `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3` for services, standardize all `max-w-[Npx]` to `max-w-screen-2xl`
+- [x] T015 [P] [US1] Fix responsive in `resources/views/our-actions.blade.php`: standardize `max-w-[1460px]` → `max-w-screen-2xl`, fix section spacing to use `<x-section-container>` or consistent `px-4 sm:px-6 lg:px-8 py-12 lg:py-16`
+- [x] T016 [P] [US1] Fix responsive in `resources/views/a-propos.blade.php`: standardize max-w, replace inconsistent padding (`px-8 sm:px-20 my-16 sm:my-32`) with standard spacing
+- [x] T017 [P] [US1] Fix responsive in `resources/views/contact.blade.php`: ensure form and address columns stack on mobile, standardize widths
+- [x] T018 [P] [US1] Fix responsive in `resources/views/tourism-solidarity.blade.php`: standardize max-w, ensure tabs/content stack properly on mobile
+- [x] T019 [P] [US1] Fix responsive in `resources/views/blog.blade.php`: ensure article cards stack on mobile with proper grid
+- [x] T020 [P] [US1] Fix responsive in `resources/views/action-socials.blade.php`: standardize max-w, ensure content stacks on mobile
 
 **Checkpoint**: All pages display without horizontal overflow at 375px. Card grids adapt to 1/2/3/4 columns. Hero carousel functional with auto-rotation. Menu hamburger accessible (will be fixed fully in US4).
 

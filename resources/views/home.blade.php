@@ -1,7 +1,9 @@
 @extends('layouts.master')
 
+@section('title', __('home.page-title'))
+
 @section('content')
-    <x-front.header></x-front.header>
+    <x-front.hero-carousel />
 
     <!-- Masonry Cards -->
 
@@ -11,7 +13,7 @@
             <p class="mx-auto text-[#575756] text-lg md:text-2xl md:text-center">{{ __('home.title-1') }}</p>
         </div>
         <div class="flex flex-col md:flex-row md:px-o items-center gap-4 mb-10">
-            <div class="w-full md:w-[1000px]">
+            <div class="w-full lg:w-2/3">
                <div class="space-y-4">
                    <div class="w-full flex flex-col md:flex-row gap-2 items-center">
                        <img class="w-full hidden md:block md:h-[300px]" src="{{ asset('assets/images/home/img-mission.png')}}" alt="image section mission">
@@ -29,7 +31,7 @@
                    </div>
                </div>
             </div>
-            <div class="w-full md:w-[452px] relative">
+            <div class="w-full lg:w-1/3 relative">
                 <img src="{{ asset('assets/images/home/bg-card.jpeg')}}" alt="image" class="rounded-xl">
                <div class="absolute left-10 bottom-8">
                    <x-primary-button href="#" class="w-full">
@@ -44,7 +46,7 @@
        <div class="px-10 mx-auto max-w-screen-2xl">
            <div class="pb-10 md:px-10">
                <div class="flex flex-col md:flex-row justify-between md:items-center">
-                   <div class="max-w-[658px] mb-8 md:mb-0">
+                   <div class="max-w-2xl mb-8 md:mb-0">
                        <h2 class="title-section pb-4">{{ __('home.section-2.title') }}</h2>
                        <p class="text-2xl">
                            {{ __('home.section-2.subtitle') }}</p>
@@ -54,7 +56,7 @@
                    </x-primary-button>
                </div>
            </div>
-           <div class="flex md:py-8 card-activity flex-wrap gap-4">
+           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:py-8">
                <x-card.activity title="{{ __('home.activites.act-0.title') }}"
                                 icon="{{asset('assets/images/icons/icon-education.png')}}"
                                 paragraph="{{ __('home.activites.act-0.text') }}"/>
@@ -80,7 +82,7 @@
     <section class="mx-auto max-w-screen-2xl px-10 sm:px-6 lg:px-8 lg:py-6 sm:mt-20">
         <div class="pb-10">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="w-full md:max-w-[800px] mb-4 md:mb-0">
+                <div class="w-full max-w-3xl mb-4 md:mb-0">
                     <h2 class="title-section pb-4">{{ __('home.section-3.title') }}</h2>
                     <p class="mx-auto text-[#575756] text-lg md:text-2xl">{{ __('home.section-3.subtitle') }}</p>
                 </div>
@@ -89,7 +91,7 @@
                 </x-primary-button>
             </div>
         </div>
-        <div class="card-grid-4 space-y-6 md:space-y-0">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
             <x-card.services
                 title="{{ __('home.services.serv-0.title') }}"
                 image="{{asset('assets/images/tourisme-volontaire/herve-j.JPG')}}"
@@ -197,7 +199,7 @@
     <section class="mx-auto max-w-screen-2xl mb-16 md:mb-0 px-10 sm:px-6 lg:px-8 lg:py-16 sm:my-16">
         <div class="pb-10">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="max-w-[650px] mb-4">
+                <div class="max-w-2xl mb-4">
                     <h2 class="title-section pb-3">{{ __('home.section-4.title') }}</h2>
                     <p class="text-[#575756] text-lg md:text-2xl">{{ __('home.section-4.text') }}</p>
                 </div>

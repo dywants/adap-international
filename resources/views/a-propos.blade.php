@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="relative px-8 lg:px-12 my-16">
+    <div class="relative px-4 sm:px-6 lg:px-8 my-8 lg:my-12">
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                 <div class="lg:pl-20">
@@ -21,7 +21,7 @@
     </div>
     <x-front.find-work></x-front.find-work>
 
-    <section class="mx-auto max-w-screen-2xl px-8 sm:px-20 my-16 sm:my-32">
+    <section class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 my-8 lg:my-12">
         <div class="flex flex-col sm:flex-row gap-16 sm:gap-32 justify-between items-center">
             <div class="flex-1">
                 <h2 class="title-section mb-5">{{ __('about.section-1.title') }}</h2>
