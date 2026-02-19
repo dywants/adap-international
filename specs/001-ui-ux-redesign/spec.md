@@ -2,7 +2,7 @@
 
 **Feature Branch**: `001-ui-ux-redesign`
 **Created**: 2026-02-19
-**Status**: Draft
+**Status**: Clarified
 **Input**: User description: "Analyse le projet, fais des propositions de design, de structure, de textes, responsive, menu, etc. sans tout casser"
 
 ## User Scenarios & Testing *(mandatory)*
@@ -149,6 +149,20 @@ Un visiteur comprend immédiatement la structure du site grâce à un menu clair
 - **SC-008**: 0 style CSS dupliqué entre les fichiers (consolidation dans app.css)
 - **SC-009**: Les titres de section ont la même apparence visuelle sur toutes les pages du site
 - **SC-010**: La page "Immigration à risque" contient au minimum 3 sections de contenu réel
+
+## Clarification Decisions
+
+Les décisions suivantes ont été prises lors de la phase de clarification :
+
+1. **Liens morts (href="#")** : Tous les liens pointant vers "#" seront redirigés vers les pages existantes les plus pertinentes du site (contact, nos-actions, tourisme, etc.) en choisissant la correspondance la plus logique pour chaque bouton.
+
+2. **Contenu Lorem ipsum** : Du contenu réel et définitif sera rédigé en s'inspirant des textes existants du site (mission, vision, valeurs, domaines d'activité d'ADAP) pour chaque section contenant du Lorem ipsum.
+
+3. **Carrousel Hero** : Implémentation en CSS pur avec `scroll-snap` et auto-rotation JavaScript minimal (~20 lignes). Aucune dépendance externe (pas de Swiper.js).
+
+4. **Images** : Des images libres de droits thématiques (Unsplash/Pexels) correspondant aux activités d'ADAP (développement, Afrique, tourisme, solidarité) seront utilisées, avec des noms de fichiers descriptifs pour faciliter le remplacement futur par le client.
+
+5. **Formulaire de contact** : Validation côté client complète en JavaScript + action `mailto:` vers l'adresse de contact ADAP. Simple, sans dépendance externe, fonctionne immédiatement.
 
 ## Assumptions
 
