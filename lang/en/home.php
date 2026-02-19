@@ -2,6 +2,27 @@
 
 return [
 
+    "page-title" => "Home",
+    "hero" => [
+        "slide-0" => [
+            "title" => "International Association for Development, Assistance and Peace",
+            "subtitle" => "Working to improve quality of life and bring African communities together around the world.",
+            "cta" => "Discover our actions",
+            "image-alt" => "African community united for development",
+        ],
+        "slide-1" => [
+            "title" => "Humanitarian Tourism in Cameroon",
+            "subtitle" => "Discover Cameroon differently through our affordable guided tours, serving local development.",
+            "cta" => "Learn more",
+            "image-alt" => "Cameroon landscape",
+        ],
+        "slide-2" => [
+            "title" => "Together, Let's Make the World Better",
+            "subtitle" => "Join our social entrepreneurship movement to build a more just and supportive society.",
+            "cta" => "Join us",
+            "image-alt" => "Volunteers in solidarity action",
+        ],
+    ],
     "headerText" => "International Association",
     "headerText2" => "for Development,",
     "headerText3" => "Assistance and Peace",

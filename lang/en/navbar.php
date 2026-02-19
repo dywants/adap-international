@@ -33,5 +33,11 @@ return [
         "lien-2" => [
             "name" => "Useful links",
         ],
-    ]
+    ],
+    "auth" => [
+        "dashboard" => "Dashboard",
+        "profile" => "Profile",
+        "logout" => "Log Out",
+    ],
+    "lang-label" => "Language",
 ];

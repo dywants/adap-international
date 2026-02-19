@@ -34,5 +34,11 @@ return [
             "name" => "Liens utiles",
         ],
 
-    ]
+    ],
+    "auth" => [
+        "dashboard" => "Tableau de bord",
+        "profile" => "Profil",
+        "logout" => "Déconnexion",
+    ],
+    "lang-label" => "Langue",
 ];

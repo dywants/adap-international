@@ -34,11 +34,11 @@
 
 **CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T005 [P] Create French system translation files: `lang/fr/auth.php` (3 keys), `lang/fr/pagination.php` (2 keys), `lang/fr/passwords.php` (5 keys) per data-model.md — use community-standard French translations (FR-010)
-- [ ] T006 [P] Create `lang/fr/validation.php` (~100 rules) — use Laravel-Lang community French translations for all validation rules (FR-010)
-- [ ] T007 [P] Extend `lang/fr/home.php` and `lang/en/home.php` with new keys: `page-title` and `hero` array (3 slides × {title, subtitle, cta, image-alt}) per contracts/translation-keys.md
-- [ ] T008 [P] Extend `lang/fr/navbar.php` and `lang/en/navbar.php` with new keys: `auth` array ({dashboard, profile, logout}) and `lang-label` per contracts/translation-keys.md
-- [ ] T009 [P] Extend `lang/fr/about.php` and `lang/en/about.php` with new keys: `page-title`, `section-1.stats` (3 stats with real content replacing Lorem ipsum), `section-2.members` (4 team members) per contracts/translation-keys.md
+- [x] T005 [P] Create French system translation files: `lang/fr/auth.php` (3 keys), `lang/fr/pagination.php` (2 keys), `lang/fr/passwords.php` (5 keys) per data-model.md — use community-standard French translations (FR-010)
+- [x] T006 [P] Create `lang/fr/validation.php` (~100 rules) — use Laravel-Lang community French translations for all validation rules (FR-010)
+- [x] T007 [P] Extend `lang/fr/home.php` and `lang/en/home.php` with new keys: `page-title` and `hero` array (3 slides × {title, subtitle, cta, image-alt}) per contracts/translation-keys.md
+- [x] T008 [P] Extend `lang/fr/navbar.php` and `lang/en/navbar.php` with new keys: `auth` array ({dashboard, profile, logout}) and `lang-label` per contracts/translation-keys.md
+- [x] T009 [P] Extend `lang/fr/about.php` and `lang/en/about.php` with new keys: `page-title`, `section-1.stats` (3 stats with real content replacing Lorem ipsum), `section-2.members` (4 team members) per contracts/translation-keys.md
 
 **Checkpoint**: Foundation ready — all shared translation keys and infrastructure in place, user story implementation can now begin in parallel
 
