@@ -15,7 +15,7 @@
             </p>
 
             <div class="flex flex-wrap mt-4">
-                <x-primary-button href="#" class="">
+                <x-primary-button href="{{ route('contact') }}" class="">
                     {{ __('navbar.button-2') }}
                 </x-primary-button>
             </div>

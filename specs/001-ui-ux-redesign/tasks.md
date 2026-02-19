@@ -155,12 +155,12 @@
 
 **Purpose**: Final verification, cleanup, and production readiness
 
-- [ ] T051 Verify 0 occurrences of "Lorem ipsum" across all `resources/views/**/*.blade.php` — run `grep -ri "lorem ipsum" resources/views/` and fix any remaining instances (SC-002)
-- [ ] T052 Verify 0 `href="#"` links across all `resources/views/**/*.blade.php` — run `grep -r 'href="#"' resources/views/` and fix any remaining instances (SC-003)
-- [ ] T053 Verify translation key parity between `lang/fr/` and `lang/en/` — ensure every key in FR exists in EN and vice-versa for all 9+ translation files (SC-005)
-- [ ] T054 Verify all text in Blade views uses `{{ __() }}` translation helpers — scan for remaining hardcoded French or English strings not using the translation system (SC-004)
-- [ ] T055 Run `npm run build` to generate production assets in `public/build/` — verify compiled CSS and JS are correct and no build errors
-- [ ] T056 Final visual review: open each page at 375px, 768px, 1280px, and 1920px — verify no horizontal overflow, consistent design, working carousel, functional menu (SC-001, SC-006, SC-009)
+- [x] T051 Verify 0 occurrences of "Lorem ipsum" across all `resources/views/**/*.blade.php` — run `grep -ri "lorem ipsum" resources/views/` and fix any remaining instances (SC-002)
+- [x] T052 Verify 0 `href="#"` links across all `resources/views/**/*.blade.php` — run `grep -r 'href="#"' resources/views/` and fix any remaining instances (SC-003)
+- [x] T053 Verify translation key parity between `lang/fr/` and `lang/en/` — ensure every key in FR exists in EN and vice-versa for all 9+ translation files (SC-005)
+- [x] T054 Verify all text in Blade views uses `{{ __() }}` translation helpers — scan for remaining hardcoded French or English strings not using the translation system (SC-004)
+- [x] T055 Run `npm run build` to generate production assets in `public/build/` — verify compiled CSS and JS are correct and no build errors
+- [x] T056 Final visual review: open each page at 375px, 768px, 1280px, and 1920px — verify no horizontal overflow, consistent design, working carousel, functional menu (SC-001, SC-006, SC-009)
 
 ---
 

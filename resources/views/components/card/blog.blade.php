@@ -19,11 +19,9 @@
             {{ $datePost }}
         </time>
 
-        <a href="#">
-            <h3 class="mt-0.5 text-lg text-gray-900">
-                {{ $title }}
-            </h3>
-        </a>
+        <h3 class="mt-0.5 text-lg text-gray-900">
+            {{ $title }}
+        </h3>
 
         <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
            {{$description}}

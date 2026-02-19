@@ -7,14 +7,11 @@
         >
             <div class="max-w-xl text-center sm:text-left">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
-                    Don't just take our word for it...
-                    <br class="hidden sm:block lg:hidden" />
-                    Read reviews from our customers
+                    {{ __('tourism.testimonial.name') }}
                 </h2>
 
                 <p class="mt-4 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-                    veritatis illo placeat harum porro optio fugit a culpa sunt id!
+                    {{ __('tourism.testimonial.text') }}
                 </p>
 
                 <div class="hidden lg:mt-8 lg:flex lg:gap-4">
@@ -126,21 +123,18 @@
                                     </div>
 
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
-                                            Stayin' Alive
+                                        <p class="text-2xl font-bold text-primary sm:text-3xl">
+                                            {{ __('tourism.testimonial.role') }}
                                         </p>
 
                                         <p class="mt-4 leading-relaxed text-gray-500">
-                                            No, Rose, they are not breathing. And they have no arms or
-                                            legs … Where are they? You know what? If we come across
-                                            somebody with no arms or legs, do we bother resuscitating
-                                            them? I mean, what quality of life do we have there?
+                                            {{ __('tourism.testimonial.text') }}
                                         </p>
                                     </div>
                                 </div>
 
                                 <footer class="mt-8 text-sm text-gray-500">
-                                    &mdash; Michael Scott
+                                    &mdash; {{ __('tourism.testimonial.name') }}
                                 </footer>
                             </blockquote>
                         </div>
@@ -208,21 +202,18 @@
                                     </div>
 
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
-                                            Stayin' Alive
+                                        <p class="text-2xl font-bold text-primary sm:text-3xl">
+                                            {{ __('tourism.testimonial.role') }}
                                         </p>
 
                                         <p class="mt-4 leading-relaxed text-gray-500">
-                                            No, Rose, they are not breathing. And they have no arms or
-                                            legs … Where are they? You know what? If we come across
-                                            somebody with no arms or legs, do we bother resuscitating
-                                            them? I mean, what quality of life do we have there?
+                                            {{ __('tourism.testimonial.text') }}
                                         </p>
                                     </div>
                                 </div>
 
                                 <footer class="mt-8 text-sm text-gray-500">
-                                    &mdash; Michael Scott
+                                    &mdash; {{ __('tourism.testimonial.name') }}
                                 </footer>
                             </blockquote>
                         </div>
@@ -290,21 +281,18 @@
                                     </div>
 
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
-                                            Stayin' Alive
+                                        <p class="text-2xl font-bold text-primary sm:text-3xl">
+                                            {{ __('tourism.testimonial.role') }}
                                         </p>
 
                                         <p class="mt-4 leading-relaxed text-gray-500">
-                                            No, Rose, they are not breathing. And they have no arms or
-                                            legs … Where are they? You know what? If we come across
-                                            somebody with no arms or legs, do we bother resuscitating
-                                            them? I mean, what quality of life do we have there?
+                                            {{ __('tourism.testimonial.text') }}
                                         </p>
                                     </div>
                                 </div>
 
                                 <footer class="mt-8 text-sm text-gray-500">
-                                    &mdash; Michael Scott
+                                    &mdash; {{ __('tourism.testimonial.name') }}
                                 </footer>
                             </blockquote>
                         </div>

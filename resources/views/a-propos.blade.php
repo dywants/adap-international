@@ -66,7 +66,7 @@
                 <div class="text-center text-gray-500 ">
                     <img class="mx-auto mb-4" src="{{ asset('assets/images/equipe/user-avatar.png') }}" alt="{{ __('about.section-2.members.member-0.name') }}">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">{{ __('about.section-2.members.member-0.name') }}</a>
+                        {{ __('about.section-2.members.member-0.name') }}
                     </h3>
                     <p>{{ __('about.section-2.members.member-0.role') }}</p>
                     <p>{{ __('about.section-2.members.member-0.location') }}</p>
@@ -74,7 +74,7 @@
                 <div class="text-center text-gray-500 ">
                     <img class="mx-auto mb-4" src="{{ asset('assets/images/equipe/user-avatar.png') }}" alt="{{ __('about.section-2.members.member-1.name') }}">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">{{ __('about.section-2.members.member-1.name') }}</a>
+                        {{ __('about.section-2.members.member-1.name') }}
                     </h3>
                     <p>{{ __('about.section-2.members.member-1.role') }}</p>
                     <p>{{ __('about.section-2.members.member-1.location') }}</p>
@@ -82,7 +82,7 @@
                 <div class="text-center text-gray-500 ">
                     <img class="mx-auto mb-4" src="{{ asset('assets/images/equipe/user-avatar.png') }}" alt="{{ __('about.section-2.members.member-2.name') }}">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">{{ __('about.section-2.members.member-2.name') }}</a>
+                        {{ __('about.section-2.members.member-2.name') }}
                     </h3>
                     <p>{{ __('about.section-2.members.member-2.role') }}</p>
                     <p>{{ __('about.section-2.members.member-2.location') }}</p>
@@ -90,7 +90,7 @@
                 <div class="text-center text-gray-500 ">
                     <img class="mx-auto mb-4" src="{{ asset('assets/images/equipe/user-avatar.png') }}" alt="{{ __('about.section-2.members.member-3.name') }}">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">{{ __('about.section-2.members.member-3.name') }}</a>
+                        {{ __('about.section-2.members.member-3.name') }}
                     </h3>
                     <p>{{ __('about.section-2.members.member-3.role') }}</p>
                     <p>{{ __('about.section-2.members.member-3.location') }}</p>
