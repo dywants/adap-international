@@ -27,7 +27,7 @@
     <section class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 my-8">
         <div class="flex gap-16 items-center justify-between flex-wrap">
             <div class="flex-1 space-y-4">
-                <img src="{{ asset("assets/images/nos-actions/tourism-1.png") }}" class="w-full bg-cover" alt="">
+                <img src="{{ asset("assets/images/nos-actions/tourism-1.png") }}" class="w-full bg-cover" alt="{{ __('actions.tourism.title') }}">
 {{--                <div class="flex items-center gap-4">--}}
 {{--                    <img src="{{ asset("assets/images/nos-actions/tourism-2.png") }}" class="w-full bg-cover" alt="">--}}
 {{--                    <img src="{{ asset("assets/images/nos-actions/tourism-3.png") }}" class="w-full bg-cover" alt="">--}}
@@ -60,7 +60,7 @@
     <section class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div class="flex gap-16 items-center flex-row-reverse justify-between flex-wrap">
             <div class="flex-1 space-y-4">
-                <img src="{{ asset("assets/images/nos-actions/immigration-1.png") }}" class="w-full bg-cover" alt="">
+                <img src="{{ asset("assets/images/nos-actions/immigration-1.png") }}" class="w-full bg-cover" alt="{{ __('actions.immigration.title') }}">
 {{--                <div class="flex items-center gap-4">--}}
 {{--                    <img src="{{ asset("assets/images/nos-actions/immigration-2.png") }}" class="w-full bg-cover" alt="">--}}
 {{--                    <img src="{{ asset("assets/images/nos-actions/immigration-3.png") }}" class="w-full bg-cover" alt="">--}}
@@ -94,7 +94,7 @@
     <section class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8 my-8 lg:my-12">
         <div class="flex gap-16 items-center justify-between flex-wrap">
             <div class="flex-1 space-y-4">
-                <img src="{{ asset("assets/images/nos-actions/programme-1.png") }}" class="w-full bg-cover" alt="">
+                <img src="{{ asset("assets/images/nos-actions/programme-1.png") }}" class="w-full bg-cover" alt="{{ __('actions.programs.title') }}">
 {{--                <div class="flex items-center gap-4">--}}
 {{--                    <img src="{{ asset("assets/images/nos-actions/programme-2.png") }}" class="w-full bg-cover h-auto" alt="">--}}
 {{--                    <img src="{{ asset("assets/images/nos-actions/programme-3.png") }}" class="w-full bg-cover  h-auto" alt="">--}}

@@ -74,7 +74,7 @@
                 <div class="max-w-3xl text-center">
                     <h2 class="text-4xl md:text-5xl text-white font-semibold mb-8">{{ __('social-actions.cta.title') }}</h2>
                     <a href="{{ route('contact') }}"
-                       class="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
+                       class="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-dark transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
                         {{ __('social-actions.cta.button') }}
                     </a>
                 </div>

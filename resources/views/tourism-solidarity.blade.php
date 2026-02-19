@@ -24,7 +24,7 @@
 
     <!-- Features -->
     <section class="max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 class="text-center mb-10 text-3xl font-semibold">{{ __('tourism.how-it-works.title') }}</h2>
+        <h2 class="title-section text-center mb-10">{{ __('tourism.how-it-works.title') }}</h2>
         <!-- Tab Nav -->
         <nav class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4" aria-label="Tabs" role="tablist">
             <button type="button"
@@ -102,7 +102,7 @@
                 <div class="space-y-6 sm:space-y-8">
                     <!-- Title -->
                     <div class="space-y-2 md:space-y-4">
-                        <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 ">
+                        <h2 class="title-section">
                             {{ __('tourism.testimonial.name') }}
                         </h2>
                         <p class="text-gray-500">

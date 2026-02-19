@@ -98,7 +98,7 @@
                                     </div>
                                     <div class="md:flex md:items-center">
                                         <div class="md:w-1/3">
-                                            <button type="submit" class="inline-flex justify-center cursor-pointer items-center text-center px-4 py-2 bg-primary border border-transparent rounded-md font-semibold text-[16px] text-white uppercase tracking-widest hover:opacity-75 focus:opacity-75 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
+                                            <button type="submit" class="inline-flex justify-center cursor-pointer items-center text-center px-4 py-2 bg-primary border border-transparent rounded-md font-semibold text-[16px] text-dark uppercase tracking-widest hover:opacity-75 focus:opacity-75 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
                                                 {{ __('contact.form.submit') }}
                                             </button>
                                         </div>

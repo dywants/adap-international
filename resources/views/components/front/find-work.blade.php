@@ -1,5 +1,5 @@
 <section class="bg-[#9369b0]">
-    <div class="max-w-screen-xl mx-auto py-8 sm:py-12 px-8 lg:py-16 lg:px-8">
+    <div class="max-w-screen-xl mx-auto py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
             <div class="mx-auto max-w-lg sm:text-center lg:mx-0 lg:text-left">
                 <h2 class="text-3xl font-bold sm:text-4xl text-white"> {{ __('about.section-0.title') }}</h2>
@@ -9,7 +9,7 @@
                 </p>
 
                 <a href="{{ route('contact') }}"
-                    class="mt-8 inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
+                    class="mt-8 inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-dark transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
                     {{ __('navbar.button-0') }}
                 </a>
             </div>

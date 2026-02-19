@@ -8,7 +8,7 @@
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                 <div class="lg:pl-20">
                     <div class="max-w-xs px-2.5 lg:max-w-none">
-                        <img alt="" sizes="(min-width: 1024px) 32rem, 20rem" src="{{ asset('assets/images/tchokossa/TCHOKOSSA.JPG') }}" class="aspect-square  rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" loading="lazy" style="color: transparent;" width="800" height="800"></div>
+                        <img alt="{{ __('about.founder-photo-alt') }}" sizes="(min-width: 1024px) 32rem, 20rem" src="{{ asset('assets/images/tchokossa/TCHOKOSSA.JPG') }}" class="aspect-square  rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" loading="lazy" style="color: transparent;" width="800" height="800"></div>
                 </div>
                 <div class="lg:order-first lg:row-span-2">
                     <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl"> {{ __('about.title') }}</h1>
@@ -59,7 +59,7 @@
     <section class="bg-white py-16">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
             <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('about.section-2.title') }}</h2>
+                <h2 class="title-section mb-4">{{ __('about.section-2.title') }}</h2>
                 <p class="font-light text-gray-500 sm:text-xl text-xl dark:text-gray-400">{{ __('about.section-2.text') }}</p>
             </div>
             <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
