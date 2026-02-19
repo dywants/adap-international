@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="UTF-8">
@@ -13,77 +13,8 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>ADAP-International</title>
+    <title>@hasSection('title')@yield('title') - @endif ADAP-International</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-    <style>
-        .shadow-navbar{
-            background: #FFF;
-            box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
-        }
-
-        .bg-graded{
-            background: linear-gradient(50deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%);
-        }
-
-        .title-section{
-            color: #161615;
-            font-family: SF Pro Display, serif;
-            font-size: 34px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-
-        .paragraph{
-            color: #575756;
-            font-family: SF Pro Display, serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 22px; /* 137.5% */
-        }
-
-        .radius{
-            border-radius: 24px;
-        }
-
-        .card-title{
-            color: #161615;
-            font-family: SF Pro Display, serif;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-
-        .card-activity{
-            justify-content: center;
-        }
-
-        .card-grid-4{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, 358px);
-            gap: 12px;
-        }
-
-        .number{
-            color: #000;
-            font-family: SF Pro Display, serif;
-            font-size: 34px;
-            font-style: normal;
-            font-weight: 700;
-            padding-bottom: 20px;
-        }
-
-        .bg-primary{
-            background: #2ACF03 !important;
-        }
-
-        .bg-primaryLight{
-            background: #F5FAF1 !important;
-        }
-    </style>
 </head>
 
 <body class="leading-normal tracking-normal flex flex-col min-h-screen ">

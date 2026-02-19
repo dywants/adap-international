@@ -19,10 +19,10 @@
 
 **Purpose**: Create shared components and CSS utilities needed by all user stories
 
-- [ ] T001 Create `<x-section-container>` Blade component in `resources/views/components/section-container.blade.php` per contracts/blade-components.md — standardized wrapper with `max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16` and `$attributes->merge()` support
-- [ ] T002 [P] Add scrollbar-hide CSS utility and consolidate all custom CSS from `resources/views/layouts/master.blade.php` inline `<style>` block (lines 19-86) into `resources/css/app.css` under `@layer components` — resolve `.paragraph` and `.card-title` conflicts (inline values = source of truth), remove `.card-grid-4`, add `.scrollbar-hide` utility
-- [ ] T003 [P] Update `resources/views/layouts/master.blade.php`: remove inline `<style>` block, fix `<html lang="fr">` → `<html lang="{{ app()->getLocale() }}">`, add dynamic title via `@hasSection('title')@yield('title') - @endif ADAP-International`
-- [ ] T004 [P] Source and save thematic images from Unsplash/Pexels to `public/assets/images/` with descriptive names: `hero-slide-1-community.jpg`, `hero-slide-2-cameroon-landscape.jpg`, `hero-slide-3-solidarity.jpg`, `tourism-cameroon-culture.jpg`, `about-team-placeholder.jpg`, `actions-education.jpg`, `actions-medical.jpg`, `social-actions-water-well.jpg`
+- [x] T001 Create `<x-section-container>` Blade component in `resources/views/components/section-container.blade.php` per contracts/blade-components.md — standardized wrapper with `max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16` and `$attributes->merge()` support
+- [x] T002 [P] Add scrollbar-hide CSS utility and consolidate all custom CSS from `resources/views/layouts/master.blade.php` inline `<style>` block (lines 19-86) into `resources/css/app.css` under `@layer components` — resolve `.paragraph` and `.card-title` conflicts (inline values = source of truth), remove `.card-grid-4`, add `.scrollbar-hide` utility
+- [x] T003 [P] Update `resources/views/layouts/master.blade.php`: remove inline `<style>` block, fix `<html lang="fr">` → `<html lang="{{ app()->getLocale() }}">`, add dynamic title via `@hasSection('title')@yield('title') - @endif ADAP-International`
+- [x] T004 [P] Source and save thematic images from Unsplash/Pexels to `public/assets/images/` with descriptive names: `hero-slide-1-community.jpg`, `hero-slide-2-cameroon-landscape.jpg`, `hero-slide-3-solidarity.jpg`, `tourism-cameroon-culture.jpg`, `about-team-placeholder.jpg`, `actions-education.jpg`, `actions-medical.jpg`, `social-actions-water-well.jpg`
 
 **Checkpoint**: Shared infrastructure ready — section-container, consolidated CSS, layout fixes, images available
 
