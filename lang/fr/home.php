@@ -2,6 +2,27 @@
 
 return [
 
+    "page-title" => "Accueil",
+    "hero" => [
+        "slide-0" => [
+            "title" => "Association Internationale pour le Développement, l'Assistance et la Paix",
+            "subtitle" => "Œuvrer pour l'amélioration de la qualité de vie et le rapprochement des communautés africaines à travers le monde.",
+            "cta" => "Découvrir nos actions",
+            "image-alt" => "Communauté africaine unie pour le développement",
+        ],
+        "slide-1" => [
+            "title" => "Tourisme Humanitaire au Cameroun",
+            "subtitle" => "Découvrez le Cameroun autrement grâce à nos visites guidées à coût réduit, au service du développement local.",
+            "cta" => "En savoir plus",
+            "image-alt" => "Paysage du Cameroun",
+        ],
+        "slide-2" => [
+            "title" => "Ensemble, Rendons le Monde Meilleur",
+            "subtitle" => "Rejoignez notre mouvement d'entrepreneuriat social pour bâtir une société plus juste et solidaire.",
+            "cta" => "Nous rejoindre",
+            "image-alt" => "Bénévoles en action solidaire",
+        ],
+    ],
     "headerText" => "Association Internationale ",
     "headerText2" => "pour le Développement,",
     "headerText3" => "l’Assistance et la Paix",
@@ -82,5 +103,18 @@ return [
             "text" =>  "Initiative de collecte et remise de matériels médicaux aux hôpitaux ayant un réel besoins de modernité, d'outils plus performants"
         ]
     ],
-    "call-to-action" => "Rendons le monde meilleur ensemble"
+    "call-to-action" => "Rendons le monde meilleur ensemble",
+    "cards" => [
+        "card-0" => [
+            "title" => "Nous rejoindre",
+            "text" => "Pour une belle aventure humanitaire",
+        ],
+        "card-1" => [
+            "title" => "Nous soutenir",
+        ],
+        "card-2" => [
+            "title" => "Écrivez-nous",
+            "text" => "contact@adap-international.org",
+        ],
+    ],
 ];

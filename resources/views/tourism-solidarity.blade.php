@@ -1,30 +1,32 @@
 @extends('layouts.master')
 
+@section('title', __('tourism.page-title'))
+
 @section('content')
     <section class="bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('assets/images/tourisme-volontaire/herve-jouan.JPG')}}');">
         <div class="absolute inset-0 bg-white/75 h-[450px] sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
 
-        <div class="relative mx-auto h-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:items-center lg:px-8">
+        <div class="relative mx-auto h-auto max-w-screen-2xl px-4 py-12 lg:py-16 sm:px-6 lg:flex lg:items-center lg:px-8">
             <div class="max-w-2xl text-center sm:text-left">
                 <h1 class="text-3xl font-extrabold sm:text-5xl leading-9">
-                    Tourisme et solidarité
+                    {{ __('tourism.hero.title') }}
                 </h1>
 
                 <p class="mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-                    Nous vous faisons une visite guidées du Cameroun à coût réduit.
+                    {{ __('tourism.hero.subtitle') }}
                 </p>
                 <div class="flex flex-wrap"><a href="{{ route('contact') }}" class="block w-full mt-4 rounded bg-secondary px-2.5 py-3 text-sm font-medium text-white shadow hover:opacity-75 focus:outline-none focus:ring sm:w-auto">
-                        Contactez-nous
+                        {{ __('tourism.hero.cta') }}
                     </a></div>
             </div>
         </div>
     </section>
 
     <!-- Features -->
-    <section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 class="text-center mb-10 text-3xl font-semibold">Comment ça marche?</h2>
+    <section class="max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <h2 class="title-section text-center mb-10">{{ __('tourism.how-it-works.title') }}</h2>
         <!-- Tab Nav -->
-        <nav class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4" aria-label="Tabs" role="tablist">
+        <nav class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4" aria-label="Tabs" role="tablist">
             <button type="button"
                     class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl active"
                     id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1"
@@ -39,8 +41,8 @@
         </svg>
         <span class="md:grow md:ml-5">
           <span
-              class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 ">All-in-one workspace</span>
-          <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">Create a business, whether you’ve got a fresh idea.</span>
+              class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 ">{{ __('tourism.how-it-works.step-0.title') }}</span>
+          <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">{{ __('tourism.how-it-works.step-0.text') }}</span>
         </span>
       </span>
             </button>
@@ -58,8 +60,8 @@
         </svg>
         <span class="md:grow md:ml-5">
           <span
-              class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 ">Automation on a whole new level</span>
-          <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">Use automation to scale campaigns profitably and save time doing it.</span>
+              class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 ">{{ __('tourism.how-it-works.step-1.title') }}</span>
+          <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">{{ __('tourism.how-it-works.step-1.text') }}</span>
         </span>
       </span>
             </button>
@@ -77,8 +79,8 @@
         </svg>
         <span class="md:grow md:ml-5">
           <span
-              class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 ">Solving problems for every team</span>
-          <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">One tool for your company to share knowledge and ship projects.</span>
+              class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 ">{{ __('tourism.how-it-works.step-2.title') }}</span>
+          <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">{{ __('tourism.how-it-works.step-2.text') }}</span>
         </span>
       </span>
             </button>
@@ -88,7 +90,7 @@
     <!-- End Features -->
 
     <!-- Features -->
-    <section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-8">
+    <section class="max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-8">
         <!-- Grid -->
         <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
             <div>
@@ -100,11 +102,11 @@
                 <div class="space-y-6 sm:space-y-8">
                     <!-- Title -->
                     <div class="space-y-2 md:space-y-4">
-                        <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                            Hervé JOUAN
+                        <h2 class="title-section">
+                            {{ __('tourism.testimonial.name') }}
                         </h2>
                         <p class="text-gray-500">
-                            Séances de travail à Paris avec Hervé, qui va visiter le Cameroun a maintes reprises. Il financera la scolarité de 4 enfants de familles démunies à Douala pendant 5 ans.
+                            {{ __('tourism.testimonial.text') }}
                         </p>
                     </div>
                     <!-- End Title -->
@@ -119,7 +121,7 @@
                             </svg>
                             <!-- End Solid Check -->
 
-                            <span class="text-sm sm:text-base text-gray-500">Un Tourisme Eco-responsable</span>
+                            <span class="text-sm sm:text-base text-gray-500">{{ __('tourism.benefits.item-0') }}</span>
                         </li>
 
                         <li class="flex space-x-3">
@@ -130,7 +132,7 @@
                             </svg>
                             <!-- End Solid Check -->
 
-                            <span class="text-sm sm:text-base text-gray-500">Avec un Impact social</span>
+                            <span class="text-sm sm:text-base text-gray-500">{{ __('tourism.benefits.item-1') }}</span>
                         </li>
 
                         <li class="flex space-x-3">
@@ -141,7 +143,7 @@
                             </svg>
                             <!-- End Solid Check -->
 
-                            <span class="text-sm sm:text-base text-gray-500">Valorisant et soutenant les personnes démunies</span>
+                            <span class="text-sm sm:text-base text-gray-500">{{ __('tourism.benefits.item-2') }}</span>
                         </li>
                     </ul>
                     <!-- End List -->
@@ -158,10 +160,10 @@
         <div class="z-50 p-8 md:p-12 lg:px-16 lg:py-24 relative" style="z-index: 1000;">
             <div class="flex ">
                 <div class="p-16 max-w-5xl">
-                    <h2 class="text-5xl font-semibold">Tu peux faire partie de l'aventure et avoir un reel impact sur le monde</h2>
+                    <h2 class="text-5xl font-semibold">{{ __('tourism.cta-banner.title') }}</h2>
                     <a href="{{ route('contact') }}" style="z-index: 2000;"
                        class="mt-8 cursor-pointer inline-block rounded bg-secondary px-12 py-3 text-sm font-medium text-white transition hover:opacity-75 focus:outline-none focus:ring focus:ring-yellow-400">
-                        Contactez-nous
+                        {{ __('tourism.cta-banner.button') }}
                     </a>
                 </div>
             </div>

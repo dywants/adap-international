@@ -6,14 +6,14 @@
             </h2>
 
             <p class="hidden text-gray-500 sm:mt-4 sm:block">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor
-                officia blanditiis repellat in, vero, aperiam porro ipsum laboriosam
-                consequuntur exercitationem incidunt tempora nisi?
+                Restez informé des actions et projets d'ADAP International. Inscrivez-vous
+                à notre newsletter pour recevoir nos dernières actualités, événements à venir
+                et opportunités de bénévolat directement dans votre boîte mail.
             </p>
         </div>
 
         <div class="mx-auto mt-8 max-w-xl">
-            <form action="#" class="sm:flex sm:gap-4">
+            <form action="{{ route('contact') }}" method="GET" class="sm:flex sm:gap-4">
                 <div class="sm:flex-1">
                     <label for="email" class="sr-only">Email</label>
 

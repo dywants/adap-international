@@ -1,5 +1,5 @@
 <footer aria-label="Site Footer" class="bg-white">
-    <div class=" px-4 pt-16 pb-6 sm:px-6 lg:px-20 lg:pt-24 border">
+    <div class="px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24 border">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
                 <div class="flex justify-center text-teal-600 sm:justify-start">
@@ -39,7 +39,7 @@
 
                     <li>
                         <a
-                            href="/"
+                            href="https://www.instagram.com/adapinternational/"
                             rel="noreferrer"
                             target="_blank"
                             class="text-teal-700 transition hover:text-teal-700/75"
@@ -62,7 +62,7 @@
 
                     <li>
                         <a
-                            href="/"
+                            href="https://twitter.com/adapintl"
                             rel="noreferrer"
                             target="_blank"
                             class="text-teal-700 transition hover:text-teal-700/75"
@@ -113,7 +113,7 @@
                             <li>
                                 <a
                                     class="text-gray-700 transition hover:text-gray-700/75"
-                                    href="/"
+                                    href="{{ route('contact') }}"
                                 >
                                     {{ __('navbar.footer.lien-0.lien-2') }}
                                 </a>
@@ -139,7 +139,7 @@
                             <li>
                                 <a
                                     class="text-gray-700 transition hover:text-gray-700/75"
-                                    href="/"
+                                    href="{{ route('Oactions') }}"
                                 >
                                     {{ __('navbar.footer.lien-1.lien-0') }}
                                 </a>
@@ -148,7 +148,7 @@
                             <li>
                                 <a
                                     class="text-gray-700 transition hover:text-gray-700/75"
-                                    href="/"
+                                    href="{{ route('Oactions') }}"
                                 >
                                     {{ __('navbar.footer.lien-1.lien-1') }}
                                 </a>
@@ -157,7 +157,7 @@
                             <li>
                                 <a
                                     class="text-gray-700 transition hover:text-gray-700/75"
-                                    href="/"
+                                    href="{{ route('Oactions') }}"
                                 >
                                     {{ __('navbar.footer.lien-1.lien-2') }}
                                 </a>
@@ -166,7 +166,7 @@
                             <li>
                                 <a
                                     class="text-gray-700 transition hover:text-gray-700/75"
-                                    href="/"
+                                    href="{{ route('actions-socials') }}"
                                 >
                                     {{ __('navbar.footer.lien-1.lien-3') }}
                                 </a>
@@ -183,7 +183,7 @@
                             <li>
                                 <a
                                     class="text-gray-700 transition hover:text-gray-700/75"
-                                    href="/"
+                                    href="{{ route('contact') }}"
                                 >
                                     FAQs
                                 </a>
@@ -192,7 +192,7 @@
                             <li>
                                 <a
                                     class="group flex justify-center gap-1.5 sm:justify-start"
-                                    href="/"
+                                    href="{{ route('contact') }}"
                                 >
                   <span
                       class="text-gray-700 transition group-hover:text-gray-700/75"
@@ -213,7 +213,8 @@
                             <li>
                                 <x-dropdown align="right" width="20">
                                     <x-slot name="trigger">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                        <span class="sr-only">{{ __('navbar.lang-label') }}</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
                                         </svg>
                                     </x-slot>
@@ -240,7 +241,7 @@
                             <li>
                                 <a
                                     class="flex items-center justify-center gap-1.5 sm:justify-start"
-                                    href="/"
+                                    href="mailto:contact@adap-international.org"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -264,7 +265,7 @@
                             <li>
                                 <a
                                     class="flex items-center justify-center gap-1.5 sm:justify-start"
-                                    href="/"
+                                    href="tel:+17135922074"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +334,7 @@
 
                     <a
                         class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-                        href="/"
+                        href="{{ route('contact') }}"
                     >
                         Terms & Conditions
                     </a>
@@ -342,14 +343,14 @@
 
                     <a
                         class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-                        href="/"
+                        href="{{ route('contact') }}"
                     >
                         Privacy Policy
                     </a>
                 </p>
 
                 <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                    &copy; 2022 ADAP-INTERNATIONAL | Créer Par <a target="_blank" href="https://dywants.com">DYWANTS</a>
+                    &copy; {{ date('Y') }} ADAP-INTERNATIONAL | Créer Par <a target="_blank" href="https://dywants.com">DYWANTS</a>
                 </p>
             </div>
         </div>

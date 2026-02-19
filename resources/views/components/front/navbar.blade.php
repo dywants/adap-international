@@ -1,7 +1,7 @@
 <header x-data="{ isOpen: false }" class="shadow-navbar">
 
     <div class="mx-auto max-w-screen-2xl">
-        <div class="flex items-center justify-between gap-4 px-10 py-2 lg:gap-10">
+        <div class="flex items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 py-2 lg:gap-10">
             <div class="flex lg:w-0 lg:flex-1 ">
                 <a href="/" class="py-4">
                     <img src="{{ asset('assets/images/logo/adap-logo.png') }}" class="w-16 h-16 sm:w-28 sm:h-28 object-cover"
@@ -37,9 +37,12 @@
 
                             <x-dropdown align="right" width="20">
                                 <x-slot name="trigger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
-                                    </svg>
+                                    <span class="flex items-center gap-1 cursor-pointer">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+                                        </svg>
+                                        <span class="text-xs text-gray-400">{{ __('navbar.lang-label') }}</span>
+                                    </span>
                                 </x-slot>
 
                                 <x-slot name="content">
@@ -57,19 +60,19 @@
                 <div class="mx-auto max-w-screen-xl text-sm font-medium">
                     <div class="flex flex-col items-center sm:flex-row sm:justify-between text-center gap-8  py-4">
                         <div class="space-x-8">
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('home') }}"> {{ __('navbar.nav.nav-0') }}</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('about') }}"> {{ __('navbar.nav.nav-1') }} </a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('Oactions') }}"> {{ __('navbar.nav.nav-2') }}</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('tourism') }}"> {{ __('navbar.nav.nav-3') }}</a>
+                            <a class="text-base {{ request()->routeIs('home') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" @click="isOpen = false" href="{{ route('home') }}"> {{ __('navbar.nav.nav-0') }}</a>
+                            <a class="text-base {{ request()->routeIs('about') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" @click="isOpen = false" href="{{ route('about') }}"> {{ __('navbar.nav.nav-1') }} </a>
+                            <a class="text-base {{ request()->routeIs('Oactions') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" @click="isOpen = false" href="{{ route('Oactions') }}"> {{ __('navbar.nav.nav-2') }}</a>
+                            <a class="text-base {{ request()->routeIs('tourism') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" @click="isOpen = false" href="{{ route('tourism') }}"> {{ __('navbar.nav.nav-3') }}</a>
 {{--                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('immigrat') }}"> {{ __('navbar.nav.nav-4') }}</a>--}}
                             <a class="text-dark text-base" @click="isOpen = false" target="_blank" href="https://blog.adap-international.org">{{ __('Blog') }}</a>
-                            <a class="text-dark text-base" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
+                            <a class="text-base {{ request()->routeIs('contact') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
                         </div>
-                        <div class="">
-                            <x-secondary-button href="#" class="ml-3">
+                        <div class="" @click="isOpen = false">
+                            <x-secondary-button href="{{ route('contact') }}" class="ml-3">
                                 {{ __('navbar.button-0') }}
                             </x-secondary-button>
-                            <x-primary-button href="#" class="ml-3">
+                            <x-primary-button href="{{ route('contact') }}" class="ml-3">
                                 {{ __('navbar.button-1') }}
                             </x-primary-button>
 {{--                            <a class="text-white text-base px-2.5 py-2 bg-black hover:opacity-75 rounded-md" @click="isOpen = false" href="{{ route('blog') }}">Etre membre</a>--}}
@@ -80,7 +83,7 @@
             </div>
 
 
-            <button @@click.prevent="isOpen = !isOpen" :class="{ 'transition transform-180': isOpen }"
+            <button @click.prevent="isOpen = !isOpen" :class="{ 'transition transform-180': isOpen }"
                     class="block lg:hidden rounded-lg bg-gray-100 p-2 text-gray-600 mr-8 sm:mr-0" type="button">
                 <span class="sr-only">Open menu</span>
                 <svg
