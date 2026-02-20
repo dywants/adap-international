@@ -239,7 +239,7 @@
                 </div>
             </div>
             <div
-                class="absolute inset-0 bg-primary/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-green-300/95 sm:to-green-700/25"
+                class="absolute inset-0 bg-black/55"
                 style=" z-index: -1;"
             ></div>
         </div>

@@ -64,7 +64,7 @@
                             <a class="text-base {{ request()->routeIs('about') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" href="{{ route('about') }}"> {{ __('navbar.nav.nav-1') }} </a>
                             <a class="text-base {{ request()->routeIs('Oactions') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" href="{{ route('Oactions') }}"> {{ __('navbar.nav.nav-2') }}</a>
                             <a class="text-base {{ request()->routeIs('tourism') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" href="{{ route('tourism') }}"> {{ __('navbar.nav.nav-3') }}</a>
-                            <a class="text-dark text-base" target="_blank" href="https://blog.adap-international.org">{{ __('Blog') }}</a>
+                            <a class="text-dark text-base" target="_blank" href="https://blog.adap-international.org">Blog</a>
                             <a class="text-base {{ request()->routeIs('contact') ? 'text-primary font-bold border-b-2 border-primary' : 'text-dark' }}" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
                         </div>
                         <div class="">
@@ -122,7 +122,7 @@
                 <a class="block text-base py-2 {{ request()->routeIs('about') ? 'text-primary font-bold' : 'text-dark' }}" @click="isOpen = false" href="{{ route('about') }}">{{ __('navbar.nav.nav-1') }}</a>
                 <a class="block text-base py-2 {{ request()->routeIs('Oactions') ? 'text-primary font-bold' : 'text-dark' }}" @click="isOpen = false" href="{{ route('Oactions') }}">{{ __('navbar.nav.nav-2') }}</a>
                 <a class="block text-base py-2 {{ request()->routeIs('tourism') ? 'text-primary font-bold' : 'text-dark' }}" @click="isOpen = false" href="{{ route('tourism') }}">{{ __('navbar.nav.nav-3') }}</a>
-                <a class="block text-base py-2 text-dark" @click="isOpen = false" target="_blank" href="https://blog.adap-international.org">{{ __('Blog') }}</a>
+                <a class="block text-base py-2 text-dark" @click="isOpen = false" target="_blank" href="https://blog.adap-international.org">Blog</a>
                 <a class="block text-base py-2 {{ request()->routeIs('contact') ? 'text-primary font-bold' : 'text-dark' }}" @click="isOpen = false" href="{{ route('contact') }}">{{ __('navbar.nav.nav-5') }}</a>
             </nav>
             <div class="px-4 py-4 border-t border-gray-200 space-y-3">

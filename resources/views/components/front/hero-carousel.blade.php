@@ -8,13 +8,13 @@
         {{-- Slide 1 --}}
         <div role="group" aria-roledescription="slide" aria-label="1 of 3"
             class="snap-start w-full flex-shrink-0 relative min-h-[60vh] md:min-h-[80vh]">
-            <img src="{{ asset('assets/images/hero-slide-1-community.svg') }}"
+            <img src="https://images.unsplash.com/photo-1509099896299-af46ad97ff57?w=1920&h=1080&fit=crop&q=80"
                 alt="{{ __('home.hero.slide-0.image-alt') }}"
                 class="absolute inset-0 w-full h-full object-cover"
                 loading="eager" fetchpriority="high">
-            <div class="relative z-10 bg-graded flex items-center min-h-[60vh] md:min-h-[80vh]">
+            <div class="relative z-10 bg-dark-overlay flex items-center min-h-[60vh] md:min-h-[80vh]">
                 <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-white">
-                    <h2 class="text-3xl md:text-5xl font-bold mb-4 max-w-2xl">{{ __('home.hero.slide-0.title') }}</h2>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-4 max-w-2xl text-white">{{ __('home.hero.slide-0.title') }}</h2>
                     <p class="text-lg md:text-xl mb-8 max-w-xl">{{ __('home.hero.slide-0.subtitle') }}</p>
                     <a href="{{ url('/nos-actions') }}"
                         class="inline-block bg-primary text-dark font-bold px-8 py-3 rounded-lg hover:opacity-90 transition">
@@ -27,13 +27,13 @@
         {{-- Slide 2 --}}
         <div role="group" aria-roledescription="slide" aria-label="2 of 3"
             class="snap-start w-full flex-shrink-0 relative min-h-[60vh] md:min-h-[80vh]">
-            <img src="{{ asset('assets/images/hero-slide-2-cameroon-landscape.svg') }}"
+            <img src="https://images.unsplash.com/photo-1615463669098-521a22047a1e?w=1920&h=1080&fit=crop&q=80"
                 alt="{{ __('home.hero.slide-1.image-alt') }}"
                 class="absolute inset-0 w-full h-full object-cover"
                 loading="lazy">
-            <div class="relative z-10 bg-graded flex items-center min-h-[60vh] md:min-h-[80vh]">
+            <div class="relative z-10 bg-dark-overlay flex items-center min-h-[60vh] md:min-h-[80vh]">
                 <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-white">
-                    <h2 class="text-3xl md:text-5xl font-bold mb-4 max-w-2xl">{{ __('home.hero.slide-1.title') }}</h2>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-4 max-w-2xl text-white">{{ __('home.hero.slide-1.title') }}</h2>
                     <p class="text-lg md:text-xl mb-8 max-w-xl">{{ __('home.hero.slide-1.subtitle') }}</p>
                     <a href="{{ url('/tousrisne-humanitaire') }}"
                         class="inline-block bg-primary text-dark font-bold px-8 py-3 rounded-lg hover:opacity-90 transition">
@@ -46,13 +46,13 @@
         {{-- Slide 3 --}}
         <div role="group" aria-roledescription="slide" aria-label="3 of 3"
             class="snap-start w-full flex-shrink-0 relative min-h-[60vh] md:min-h-[80vh]">
-            <img src="{{ asset('assets/images/hero-slide-3-solidarity.svg') }}"
+            <img src="https://images.unsplash.com/photo-1632215861513-130b66fe97f4?w=1920&h=1080&fit=crop&q=80"
                 alt="{{ __('home.hero.slide-2.image-alt') }}"
                 class="absolute inset-0 w-full h-full object-cover"
                 loading="lazy">
-            <div class="relative z-10 bg-graded flex items-center min-h-[60vh] md:min-h-[80vh]">
+            <div class="relative z-10 bg-dark-overlay flex items-center min-h-[60vh] md:min-h-[80vh]">
                 <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-white">
-                    <h2 class="text-3xl md:text-5xl font-bold mb-4 max-w-2xl">{{ __('home.hero.slide-2.title') }}</h2>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-4 max-w-2xl text-white">{{ __('home.hero.slide-2.title') }}</h2>
                     <p class="text-lg md:text-xl mb-8 max-w-xl">{{ __('home.hero.slide-2.subtitle') }}</p>
                     <a href="{{ url('/contact') }}"
                         class="inline-block bg-primary text-dark font-bold px-8 py-3 rounded-lg hover:opacity-90 transition">
