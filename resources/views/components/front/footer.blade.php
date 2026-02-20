@@ -185,7 +185,7 @@
                                     class="text-gray-700 transition hover:text-gray-700/75"
                                     href="{{ route('contact') }}"
                                 >
-                                    FAQs
+                                    {{ __('footer.faq') }}
                                 </a>
                             </li>
 
@@ -197,7 +197,7 @@
                   <span
                       class="text-gray-700 transition group-hover:text-gray-700/75"
                   >
-                    Live Chat
+                    {{ __('footer.live-chat') }}
                   </span>
 
                                     <span class="relative flex h-2 w-2">
@@ -330,13 +330,13 @@
         <div class="mt-12 border-t border-gray-100 pt-6">
             <div class="text-center sm:flex sm:justify-between sm:text-left">
                 <p class="text-sm text-gray-500">
-                    <span class="block sm:inline">All rights reserved.</span>
+                    <span class="block sm:inline">{{ __('footer.rights') }}</span>
 
                     <a
                         class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
                         href="{{ route('contact') }}"
                     >
-                        Terms & Conditions
+                        {{ __('footer.terms') }}
                     </a>
 
                     <span>&middot;</span>
@@ -345,7 +345,7 @@
                         class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
                         href="{{ route('contact') }}"
                     >
-                        Privacy Policy
+                        {{ __('footer.privacy') }}
                     </a>
                 </p>
 

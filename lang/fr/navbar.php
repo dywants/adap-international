@@ -7,7 +7,7 @@ return [
     "button-2" => "Nous soutenir",
     "button-3" => "En savoir plus",
     "nav" => [
-        "nav-0" =>"Acceuil",
+        "nav-0" =>"Accueil",
         "nav-1" =>"Qui sommes-nous",
         "nav-2" =>"Programmes clés",
         "nav-3" =>"Tourisme Humanitaire",

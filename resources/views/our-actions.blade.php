@@ -76,7 +76,7 @@
                     </div>
                     <div>
                         <img src="{{ asset("assets/images/icons/icon-record.png") }}" alt="">
-                        <p class="paragraph pt-4">{{ __('actions.immigration.text-1') }}</p>
+                        <p class="paragraph pt-4">{{ __('actions.immigration.text-2') }}</p>
                     </div>
                 </div>
                 <div class="flex flex-wrap mt-4 gap-8">
@@ -118,7 +118,7 @@
                     </div>
                     <div class="col-span-2">
                         <img src="{{ asset("assets/images/icons/icon-record.png") }}" alt="">
-                        <p class="paragraph pt-4">{{ __('actions.programs.text-3') }}</p>
+                        <p class="paragraph pt-4">{{ __('actions.programs.text-4') }}</p>
                     </div>
                 </div>
                 <div class="flex flex-wrap mt-4 gap-8">
