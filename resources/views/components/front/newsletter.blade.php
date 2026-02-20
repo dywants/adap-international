@@ -2,13 +2,11 @@
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
         <div class="mx-auto max-w-lg text-center">
             <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
-                Sign up for our newsletter
+                {{ __('newsletter.title') }}
             </h2>
 
             <p class="hidden text-gray-500 sm:mt-4 sm:block">
-                Restez informé des actions et projets d'ADAP International. Inscrivez-vous
-                à notre newsletter pour recevoir nos dernières actualités, événements à venir
-                et opportunités de bénévolat directement dans votre boîte mail.
+                {{ __('newsletter.text') }}
             </p>
         </div>
 
@@ -19,7 +17,7 @@
 
                     <input
                         type="email"
-                        placeholder="Email address"
+                        placeholder="{{ __('newsletter.placeholder') }}"
                         class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-yellow-400"
                     />
                 </div>
@@ -28,7 +26,7 @@
                     type="submit"
                     class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-rose-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
                 >
-                    <span class="text-sm font-medium"> Sign Up </span>
+                    <span class="text-sm font-medium"> {{ __('newsletter.button') }} </span>
 
                     <svg
                         class="h-5 w-5"
@@ -49,4 +47,3 @@
         </div>
     </div>
 </section>
-

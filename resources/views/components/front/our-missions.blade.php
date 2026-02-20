@@ -6,14 +6,13 @@
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full bg-cover"
                              src="{{ asset('/assets/images/elus-cameroun.jpeg') }}"
-                             alt="logo revue les elus du Cameroun">
+                             alt="{{ __('missions.card-0.title') }}">
                     </div>
                     <div class="p-4 bg-[#20bec5]">
-                        <h2 class="mt-2 mb-2 font-bold">Mise en vitrine des élus</h2>
-                        <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-                            ullamcorper nulla non metus auctor fringilla.</p>
-                        <a href="" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
-                            <span class="text-white text-xs">En savoir plus</span>
+                        <h2 class="mt-2 mb-2 font-bold">{{ __('missions.card-0.title') }}</h2>
+                        <p class="text-sm">{{ __('missions.card-0.text') }}</p>
+                        <a href="{{ route('Oactions') }}" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
+                            <span class="text-white text-xs">{{ __('navbar.button-3') }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                  class="w-6 h-6 text-white">
                                 <path fill-rule="evenodd"
@@ -28,14 +27,13 @@
                 <div class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full bg-cover"
-                             src="{{ asset('/assets/images/adap-sport.jpg') }}" alt="">
+                             src="{{ asset('/assets/images/adap-sport.jpg') }}" alt="{{ __('missions.card-1.title') }}">
                     </div>
                     <div class="p-4 bg-[#c0d6e8]">
-                        <h2 class="mt-2 mb-2 font-bold">Solidarité à travers le sport</h2>
-                        <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-                            ullamcorper nulla non metus auctor fringilla.</p>
-                        <a href="" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
-                            <span class="text-white text-xs">En savoir plus</span>
+                        <h2 class="mt-2 mb-2 font-bold">{{ __('missions.card-1.title') }}</h2>
+                        <p class="text-sm">{{ __('missions.card-1.text') }}</p>
+                        <a href="{{ route('Oactions') }}" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
+                            <span class="text-white text-xs">{{ __('navbar.button-3') }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                  class="w-6 h-6 text-white">
                                 <path fill-rule="evenodd"
@@ -50,15 +48,14 @@
                 <div class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full object-cover"
-                             src="{{ asset('assets/images/tourisme-volontaire/herve-j.JPG') }}" alt="">
+                             src="{{ asset('assets/images/tourisme-volontaire/herve-j.JPG') }}" alt="{{ __('missions.card-2.title') }}">
                     </div>
                     <div class="p-4 bg-[#9369b0]">
-                        <h2 class="mt-2 mb-2 font-bold">Tourisme Solidaire</h2>
-                        <p class="text-sm">Nous organissons des visites guidées du Cameroun à coût réduit. Mais en
-                            contrepartie, le touriste peut nous offrir...</p>
+                        <h2 class="mt-2 mb-2 font-bold">{{ __('missions.card-2.title') }}</h2>
+                        <p class="text-sm">{{ __('missions.card-2.text') }}</p>
                         <a href="{{route('tourism')}}"
                            class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
-                            <span class="text-white text-xs">En savoir plus</span>
+                            <span class="text-white text-xs">{{ __('navbar.button-3') }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                  class="w-6 h-6 text-white">
                                 <path fill-rule="evenodd"
@@ -73,15 +70,14 @@
                 <div class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
                     <div class="relative pb-48 overflow-hidden">
                         <img class="absolute inset-0 h-full w-full object-cover"
-                             src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-                             alt="">
+                             src="{{ asset('assets/images/action-social.jpeg') }}"
+                             alt="{{ __('missions.card-3.title') }}">
                     </div>
                     <div class="p-4 bg-[#F3FBD5]">
-                        <h2 class="mt-2 mb-2  font-bold">Actions sociales</h2>
-                        <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-                            ullamcorper nulla non metus auctor fringilla.</p>
-                        <a href="" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
-                            <span class="text-white text-xs">En savoir plus</span>
+                        <h2 class="mt-2 mb-2  font-bold">{{ __('missions.card-3.title') }}</h2>
+                        <p class="text-sm">{{ __('missions.card-3.text') }}</p>
+                        <a href="{{ route('actions-socials') }}" class="inline-flex items-center gap-1 mt-6 px-2 py-1 bg-black opacity-75 rounded-md">
+                            <span class="text-white text-xs">{{ __('navbar.button-3') }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                  class="w-6 h-6 text-white">
                                 <path fill-rule="evenodd"
