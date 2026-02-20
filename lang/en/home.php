@@ -74,7 +74,7 @@ return [
     "services" => [
         "serv-0" => [
             "title" => "Humanitarian Tourism",
-            "text" =>  "We organize guided tours of Cameroon at reduced cost. But in return, the tourist can offer us..."
+            "text" =>  "We organize guided tours of Cameroon at reduced cost. In return, tourists contribute to local community development."
         ],
         "serv-1" => [
             "title" => "Social actions",
@@ -82,11 +82,11 @@ return [
         ],
         "serv-2" => [
             "title" => "Showcasing our C.T.D",
-            "text" =>  "To present and highlight the actions of elected officials in Cameroon, decentralized local authorities..."
+            "text" =>  "To present and highlight the actions of elected officials in Cameroon and decentralized local authorities."
         ],
         "serv-3" => [
             "title" => "A Sport/ A Profession",
-            "text" =>  "In 2008, the ADAP Inter-Sports Center was launched in the presence of the Delegate for Sports and Physical Activities of the ..."
+            "text" =>  "In 2008, the ADAP Inter-Sports Center was launched in the presence of the Delegate for Sports and Physical Activities. A training-through-sports program for unemployed youth."
         ],
     ],
     "section-4" => [

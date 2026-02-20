@@ -60,7 +60,7 @@ return [
         ],
         "act-4" => [
             "title" => "Tourisme Africain",
-            "text" => "Nous organissons des visites guidées du Cameroun à coût réduit.",
+            "text" => "Nous organisons des visites guidées du Cameroun à coût réduit.",
         ],
         "act-5" => [
             "title" => "Sport et Loisir",
@@ -74,7 +74,7 @@ return [
     "services" => [
         "serv-0" => [
             "title" => "Tourisme Humanitaire",
-            "text" =>  "Nous organissons des visites guidées du Cameroun à coût réduit. Mais en contrepartie, le touriste peut nous offrir..."
+            "text" =>  "Nous organisons des visites guidées du Cameroun à coût réduit. En contrepartie, le touriste contribue au développement des communautés locales."
         ],
         "serv-1" => [
             "title" => "Actions sociales",
@@ -82,11 +82,11 @@ return [
         ],
         "serv-2" => [
             "title" => "Mise en Vitrine de nos C.T.D",
-            "text" =>  "Permettre la presentatiom et mise en avant des actions des élus du Cameroun, des collectivités territoriales décentralisées..."
+            "text" =>  "Permettre la présentation et la mise en avant des actions des élus du Cameroun et des collectivités territoriales décentralisées."
         ],
         "serv-3" => [
             "title" => "Un Sport/Un Métier",
-            "text" =>  "En 2008, lancement du Centre ADAP Inter-Sports en la présence du Délégué des Sports et des Activités Physiques du ..."
+            "text" =>  "En 2008, lancement du Centre ADAP Inter-Sports en la présence du Délégué des Sports et des Activités Physiques. Un programme de formation par le sport pour les jeunes désœuvrés."
         ],
     ],
     "section-4" => [
